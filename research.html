@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>David Ryan Miller</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">David Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="bookproject.html">Book Project</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/DrDRMiller">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p> </p>
+<div id="journal-articles" class="section level3">
+<h3>Journal Articles</h3>
+<p><a href="files/PRQ_Voting.pdf">Stein, Robert M., Christopher Mann, Charles Stewart III, <span class="math inline">\(\ldots\)</span>, David Miller, <span class="math inline">\(\ldots\)</span>, et al. 2020. “Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study.” <em>Political Research Quarterly</em>, 73(2), 439-453.</a></p>
+<p><a href="files/Perspectives_Voting.pdf">Mann, Christopher B., Gayle A. Alberda, Nathaniel A. Birkhead, <span class="math inline">\(\ldots\)</span>, David Miller, <span class="math inline">\(\ldots\)</span>, et al. 2018. “Pedagogical Value of Polling Place Observation By Students.” <em>PS: Political Science &amp; Politics</em>, 51(4), 831-837.</a></p>
+<p><a href="files/Commissions.pdf">Miller, David R. and Andrew Reeves. 2017. “Attitudes toward Delegation to Presidential Commissions.” <em>Presidential Studies Quarterly</em>, 47(3), 495-516.</a> <a href="files/CommissionsAppendix.docx"><em>Supplemental Information</em></a></p>
+</div>
+<div id="other-academic-publications" class="section level3">
+<h3>Other Academic Publications</h3>
+<p><a href="http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml">Reeves, Andrew, David R. Miller, and Bryant Moy. 2018. “U.S. Presidential Campaigns and Their Impact.” In <em>Oxford Bibliographies in Political Science</em>.</a></p>
+<p>Stein, Robert M., Christopher Mann, Charles Stewart III, <span class="math inline">\(\ldots\)</span>, David Miller, <span class="math inline">\(\ldots\)</span>, et al. 2020. “Polling Place Quality and Access.” In <em>The Future of Election Administration</em>, Mitchell Brown, Kathleen Hale, and Bridgett A. King, Eds. Palgrave Macmillan, 83-100.</p>
+</div>
+<div id="working-papers" class="section level3">
+<h3>Working Papers</h3>
+<p><a href="files/LobbyingImpact.pdf">Butler, Daniel M. and David R. Miller. “Does Lobbying Affect Bill Advancement? Evidence from Three State Legislatures.”</a></p>
+<p><a href="files/AccessApproaches.pdf">Miller, David R. “Empirical Approaches to the Study of Access.”</a></p>
+<p><a href="files/DRM_Targeting_v5.pdf">Miller, David R. “On Whose Door to Knock? Lobbyists’ Strategic Pursuit of Access to Members of Congress.”</a></p>
+<p><a href="files/WHEngagement.pdf">Miller, David R. “The President Will See Whom Now? White House Engagement with Organized Interests.”</a></p>
+<p><a href="files/main-rr.pdf">Miller, David R. and Andrew Reeves. “Pass the Buck or the Buck Stops Here? The Effectiveness of Claiming and Deflecting Blame by Elected Executives.” <em>Invited to revise and resubmit at Journal of Public Policy</em>.</a></p>
+</div>
+<div id="works-in-progress" class="section level3">
+<h3>Works in Progress</h3>
+<p>Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. ``The Asymmetric Impact of Political Scandal on Public Perceptions of Judicial Nominees."</p>
+<p>Butler, Ryden, JB Duck-Mayr, David R. Miller, and Erin Rossiter. “May It Please the President? The Role of Deference to Executive Power in Supreme Court Nominations.”</p>
+</div>
+<div id="public-scholarship" class="section level3">
+<h3>Public Scholarship</h3>
+<p><a href="https://www.washingtonpost.com/politics/2020/03/26/if-trump-took-responsibility-coronavirus-missteps-it-might-actually-help-him">“If Trump Took Responsibility for Coronavirus Missteps, It Might Actually Help Him” (with Andrew Reeves). <em>The Washington Post</em>. March 26, 2020.</a></p>
+<p><a href="https://connect.apsanet.org/raisethevote/2020/01/17/late-to-the-party-nomination-how-primary-election-timing-disadvantages-missouri-voters/">“Late to the Party (Nomination): How Primary Election Timing Disadvantages Missouri Voters.” In APSA’s <em>RAISE the Vote Campaign</em>. January 17, 2020.</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

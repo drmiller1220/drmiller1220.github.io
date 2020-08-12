@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>David Ryan Miller</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">David Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="bookproject.html">Book Project</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/DrDRMiller">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p> </p>
+<div id="book-project" class="section level3">
+<h3>Book Project</h3>
+<p>My book project examines how presidents interact with organized interests to pursue their goals. Though both scholars and practitioners acknowledge presidents and organized interests as formidable actors in American politics, few studies examine the interactions between these actors. I posit that presidents engage with organized interests to shift the balance of organized interest activity in presidents’ favor. I further argue that, in order to maximize the effectiveness of this engagement, presidents are more likely to engage with organized interests who have large resource endowments and who are copartisans of the incumbent. I assess these expectations by evaluating three interrelated questions: with which organized interests do presidents engage?; how do presidents encourage the interests with which they engage to cooperate with them?; and how does presidents’ engagement with organized interests help presidents achieve their goals?</p>
+<p>In one chapter, I consider with which organized interests presidents engage. I argue that presidents engage with interests from whom they expect the highest rates of return from engagement: interests with large resource endowments and who are copartisans of the incumbent. To test these expectations, I utilize over 7 million White House visitor logs records from the Clinton, Obama, and Trump presidencies to identify instances in which presidents provided access to organized interests, which I argue is a clear signal of presidents’ engagement with them. I further supplement these records with other data sources, including Lobbying Disclosure Act filings and White House personnel salary reports. While some of this data is accessible online, I acquired much of it through FOIA requests and archival work at the Clinton Presidential Library. I leverage this data to estimate multilevel models examining the relationships between organized interests’ White House access and their lobbying expenditures, campaign contributions to candidates for federal office, and the partisan alignment of their industries with the incumbent. I find that presidents are more likely to provide access to interests with higher levels of resources and, to a lesser extent, to interests in industries aligned with the their party, suggesting that presidents perpetuate inequalities in political voice present in other institutions. I also draw on an original survey of approximately 600 organized interest representatives and fifteen interviews with former White House officials and organized interest representatives to inform my theoretical claims and contextualize my findings.</p>
+<p>In another chapter, I examine how presidents encourage cooperation from organized interests. Though interests sometimes cooperate with presidents because of shared goals, presidents can incentivize recalcitrant interests or boost the effort interests exert with selective incentives at their disposal by way of their unilateral powers. I argue that presidents allocate these incentives to organized interests to whom they provide White House access. I evaluate this expectation with multilevel models which assess whether presidents are more likely to provide federal grants, appointments to advisory commissions, and mentions in the White House’s public statements to organized interests to whom they previously provided access. My results support this expectation, suggesting that presidents’ engagement with organized interests contributes to disparities not only in political voice, but also the distribution of political and policy resources.</p>
+<p>In a subsequent chapter, I examine whether presidents’ engagement with organized interests advances their goals. In many cases, organized interests’ activity with regard to presidents’ initiatives is hard to observe. For example, lacking information about when presidents encourage organized interests to pressure Congress on their behalf and records of interests’ efforts to lobby members of Congress, we cannot evaluate whether presidential engagement induces organized interests to exert lobbying effort and whether that effort advances’ presidents objectives. In light of this challenge, I focus on a publicly observable activity in which presidents encourage organized interests to engage—the issuance of statements of support for presidents’ policies. First, drawing on fifteen interviews with former White House officials and organized interest representatives, I detail how the White House stimulates the organized interests with which it engages to provide these statements in hopes of bolstering the public’s support for and perceived legitimacy of its policies. Second, I evaluate whether organized interests’ statements of support for presidents’ policies influence public attitudes with a survey experiments which varies the number and partisan affiliation of interests expressing support for presidents’ policies. My results indicate that organized interests’ statements of support for presidents’ policies increases the public’s support for, but not perceived legitimacy of, those policies.</p>
+<p>My book project both offers theoretical contributions to several different areas of study in American politics and highlights substantive implications of presidents’ interactions with organized interests. I not only help to start bridging the scholarly gap between the presidency and organized interests, but also demonstrate how presidents use their powers to provide representation to select subgroups of the political system, rather than the country as a whole, in a context outside of electoral politics. In addition, whereas most studies of organized interests’ influence on the policy process focus on Congress, I highlight the pathways by which organized interests enjoy influence through the executive branch and consider how the president perpetuates inequality of political voice among the universe of interests in society.</p>
+<p>This book project emerges from my dissertation entitled “All the Presidents’ Organized Interests.” I am currently in the process of collecting additional data and revising the manuscript, as well as preparing related article-length manuscripts for submission.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
