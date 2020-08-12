@@ -4,7 +4,7 @@ navbar:
   title: "David Ryan Miller"
   left:
     - text: "CV"
-      href: cv.html
+      href: CV.html
     - text: "Book Project"
       href: bookproject.html
     - text: "Research"
