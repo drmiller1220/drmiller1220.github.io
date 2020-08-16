@@ -28,4 +28,4 @@ pagetitle: "David Ryan Miller"
 
 ### Teaching Demonstration
 
-[Click here](https://www.youtube.com/watch?v=xL6DUg7cTC0&t=2s) to watch an 18-minute short workshop on multilevel models I led for graduate students in Washington University in St. Louis in February 2020.  Materials to follow along can be found [here](files/TeachingDemoFiles.zip).
+[Click here](https://www.youtube.com/watch?v=xL6DUg7cTC0&t=2s) to watch an 18-minute short workshop on multilevel models I led for graduate students at Washington University in St. Louis in February 2020.  Materials to follow along can be found [here](files/TeachingDemoFiles.zip).

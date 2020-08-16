@@ -3,7 +3,7 @@
     "path": "~/GitHub/drmiller1220.github.io/teaching.Rmd",
     "project_path": "teaching.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "270610860",
     "contents": "",
     "dirty": false,
     "created": 1597263203155.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "26,132",
-        "scrollLine": "0"
+        "cursorPosition": "30,151",
+        "scrollLine": "9"
     },
     "folds": "",
-    "lastKnownWriteTime": 1597264557,
+    "lastKnownWriteTime": 1597611834,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1597264557371,
+    "last_content_update": 1597611834172,
     "read_only": false,
     "read_only_alternatives": []
 }
