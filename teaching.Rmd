@@ -23,5 +23,9 @@ pagetitle: "David Ryan Miller"
 
 #### Teaching Assistant
 
-- Introduction to American Politics, Fall 2013 & Fall 2014 (Instructor: Maureen Moakley) (Course Evaluations, 2014; 2013 is unavailable)
-- Introduction to International Politics, Spring 2014 & Spring 2015 (Instructor: Marc Hutchison) (Course Evaluations, 2014 and 2015)
+- Introduction to American Politics, Fall 2013 & Fall 2014 (Instructor: Maureen Moakley) (Course Evaluations, [2014](files/PSC113-Fall-2014.pdf); 2013 is unavailable)
+- Introduction to International Politics, Spring 2014 & Spring 2015 (Instructor: Marc Hutchison) (Course Evaluations, [2014](files/PSC116-Spring-2014.pdf) and [2015](files/PSC116-Spring-2015.pdf))
+
+### Teaching Demonstration
+
+[Click here](https://www.youtube.com/watch?v=xL6DUg7cTC0&t=2s) to watch an 18-minute short workshop on multilevel models I led for graduate students in Washington University in St. Louis in February 2020.  Materials to follow along can be found [here](files/TeachingDemoFiles.zip).
