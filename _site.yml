@@ -20,3 +20,6 @@ output:
   html_document:
     theme: cosmo
     css: 'styles.css'
+    html_document:
+      includes:
+        in_header: GA_Script.html

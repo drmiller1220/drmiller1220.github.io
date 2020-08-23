@@ -1,0 +1,88 @@
+library(brms)
+library(data.table)
+
+#setwd("C:\\Users\\drmil\\Dropbox\\White House Lobbying")
+setwd("/Users/davidmiller/Dropbox/White House Lobbying")
+
+set.seed(1213)
+
+memory.limit(size=20000)
+
+final_df <- fread("final_df.csv", header = TRUE, stringsAsFactors = FALSE)
+
+final_df_sub <- subset(final_df, select=c(any_visits_perfect, any_visits_perfect1l, self_lobby,  
+                                          QuarterExp50001l, active_cf_sum8, 
+                                          campaign_donations_sum8, crp_qual_ideo_ind,
+                                          ACC, ADV, AER, AGR, ALC, ANI, APP, ART,
+                                          AUT, AVI, BAN, BEV, BNK, BUD, CAW, CDT, CHM, CIV, COM,
+                                          CON, CPI, CPT, CSP, DEF, DIS, DOC, ECN, EDU, ENG, ENV,
+                                          FAM, FIN, FIR, FOO, FOR, FUE, GAM, GOV, HCR, HOM, HOU,
+                                          IMM, IND, INS, INT, LAW, LBR, MAN, MAR, MED, MIA, MIN,
+                                          MMM, MON, NAT, PHA, POS, REL, RES, RET, ROD, RRR, SCI,
+                                          SMB, SPO, TAR, TAX, TEC, TOB, TOR, TOU, TRA, TRD, TRF,
+                                          TRU, UNM, URB, UTI, VET, WAS, WEL,
+                                          yearperiod, crp_orgnames, Industry.y))
+
+final_df_sub <- final_df_sub[complete.cases(final_df_sub),]
+
+priors_df <-get_prior(any_visits_perfect ~ any_visits_perfect1l + self_lobby + 
+                        log(QuarterExp50001l+1) + active_cf_sum8 + 
+                        active_cf_sum8:log(campaign_donations_sum8+1) + 
+                        crp_qual_ideo_ind +
+                        log(QuarterExp50001l+1):crp_qual_ideo_ind + 
+                        active_cf_sum8:crp_qual_ideo_ind + 
+                        active_cf_sum8:log(campaign_donations_sum8+1):crp_qual_ideo_ind +
+                        ACC + ADV + AER + AGR + ALC + ANI + APP + ART +
+                        AUT + AVI + BAN + BEV + BNK + BUD + CAW + CDT + CHM + CIV + COM +
+                        CON + CPI + CPT + CSP + DEF + DIS + DOC + ECN + EDU + ENG + ENV +
+                        FAM + FIN + FIR + FOO + FOR + FUE + GAM + GOV + HCR + HOM + HOU +
+                        IMM + IND + INS + INT + LAW + LBR + MAN + MAR + MED + MIA + MIN +
+                        MMM + MON + NAT + PHA + POS + REL + RES + RET + ROD + RRR + SCI +
+                        SMB + SPO + TAR + TAX + TEC + TOB + TOR + TOU + TRA + TRD + TRF +
+                        TRU + UNM + URB + UTI + VET + WAS + WEL +
+                        (1|q|yearperiod) + 
+                        (1+ log(QuarterExp50001l+1) + active_cf_sum8 + 
+                           active_cf_sum8:log(campaign_donations_sum8+1)|p|crp_orgnames:Industry.y) + 
+                        (1 + log(QuarterExp50001l+1) + active_cf_sum8 +
+                           active_cf_sum8:log(campaign_donations_sum8+1)|r|Industry.y),
+                      data= final_df_sub, family=bernoulli(link = "logit"), 
+                      prior = manual_priors, refresh = 10, control=list(adapt_delta=0.9999),
+                      chains = 4, cores = 4, iter = 2000, seed = 1989)
+
+priors_df$prior <- ifelse(priors_df$class=="b", "normal(0, 10)", priors_df$prior)
+priors_df$prior <- ifelse(priors_df$class=="cor", "lkj(1)", priors_df$prior)
+priors_df$prior <- ifelse(priors_df$class=="sd"|priors_df$class=="Intercept", "student_t(3, 0, 10)", priors_df$prior)
+
+beginning <- Sys.time()
+
+fit_access_all <- brm(any_visits_perfect ~ any_visits_perfect1l + self_lobby + 
+                        log(QuarterExp50001l+1) + active_cf_sum8 + 
+                        active_cf_sum8:log(campaign_donations_sum8+1) + 
+                        crp_qual_ideo_ind +
+                        log(QuarterExp50001l+1):crp_qual_ideo_ind + 
+                        active_cf_sum8:crp_qual_ideo_ind + 
+                        active_cf_sum8:log(campaign_donations_sum8+1):crp_qual_ideo_ind +
+                        ACC + ADV + AER + AGR + ALC + ANI + APP + ART +
+                        AUT + AVI + BAN + BEV + BNK + BUD + CAW + CDT + CHM + CIV + COM +
+                        CON + CPI + CPT + CSP + DEF + DIS + DOC + ECN + EDU + ENG + ENV +
+                        FAM + FIN + FIR + FOO + FOR + FUE + GAM + GOV + HCR + HOM + HOU +
+                        IMM + IND + INS + INT + LAW + LBR + MAN + MAR + MED + MIA + MIN +
+                        MMM + MON + NAT + PHA + POS + REL + RES + RET + ROD + RRR + SCI +
+                        SMB + SPO + TAR + TAX + TEC + TOB + TOR + TOU + TRA + TRD + TRF +
+                        TRU + UNM + URB + UTI + VET + WAS + WEL +
+                        (1|q|yearperiod) + 
+                        (1+ log(QuarterExp50001l+1) + active_cf_sum8 + 
+                           active_cf_sum8:log(campaign_donations_sum8+1)|p|crp_orgnames:Industry.y) + 
+                        (1 + log(QuarterExp50001l+1) + active_cf_sum8 +
+                           active_cf_sum8:log(campaign_donations_sum8+1)|r|Industry.y),
+                      data= final_df_sub, family=bernoulli(link = "logit"), 
+                      prior = priors_df,
+                      refresh = 10, control=list(adapt_delta=0.9999),
+                      chains = 4, cores = 4, iter = 3000, seed = 1989)
+
+summary(fit_access_all)
+
+end <- Sys.time()
+end-beginning
+
+save(fit_access_all, file="BRMSModels\\brms_inter_fullsample.RData")
