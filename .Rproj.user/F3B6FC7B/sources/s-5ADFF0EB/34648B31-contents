@@ -21,17 +21,37 @@ final_df_sub <- subset(final_df, select=c(any_visits_perfect, any_visits_perfect
                                           MMM, MON, NAT, PHA, POS, REL, RES, RET, ROD, RRR, SCI,
                                           SMB, SPO, TAR, TAX, TEC, TOB, TOR, TOU, TRA, TRD, TRF,
                                           TRU, UNM, URB, UTI, VET, WAS, WEL,
-                                          yearperiod, crp_orgnames, Industry.y))
+                                          yearperiod, crp_orgnames, Industry.y,
+                                          access_principals_perfect, access_Q1st_perfect, 
+                                          access_Q2nd_perfect, access_Q3rd_perfect, 
+                                          access_Q4th_perfect, access_UNK_perfect, 
+                                          access_principals_perfect1l, access_Q1st_perfect1l,
+                                          access_Q2nd_perfect1l, access_Q3rd_perfect1l, 
+                                          access_Q4th_perfect1l, access_UNK_perfect1l))
 
 final_df_sub <- final_df_sub[complete.cases(final_df_sub),]
 
-priors_df <-get_prior(any_visits_perfect ~ any_visits_perfect1l + self_lobby + 
+final_df_sub$access_principals_Q1st_perfect <- ifelse(final_df_sub$access_principals_perfect==1 | final_df_sub$access_Q1st_perfect==1, 1, 0)
+final_df_sub$access_principals_Q1st_perfect1l <- ifelse(final_df_sub$access_principals_perfect1l==1 | final_df_sub$access_Q1st_perfect1l==1, 1, 0)
+
+final_df_sub$access_nonprincipals_Q1st_perfect <- ifelse(final_df_sub$access_Q2nd_perfect==1 |
+                                                           final_df_sub$access_Q3rd_perfect==1 |
+                                                           final_df_sub$access_Q4th_perfect==1 |
+                                                           final_df_sub$access_UNK_perfect==1, 1, 0)
+
+final_df_sub$access_nonprincipals_Q1st_perfect1l <- ifelse(final_df_sub$access_Q2nd_perfect1l==1 |
+                                                             final_df_sub$access_Q3rd_perfect1l==1 |
+                                                             final_df_sub$access_Q4th_perfect1l==1 |
+                                                             final_df_sub$access_UNK_perfect1l==1, 1, 0)
+
+priors_df <-get_prior(mvbind(access_principals_Q1st_perfect,
+                             access_nonprincipals_Q1st_perfect) ~
+                        access_principals_Q1st_perfect1l +
+                        access_nonprincipals_Q1st_perfect1l + 
+                        self_lobby + 
                         log(QuarterExp50001l+1) + active_cf_sum8 + 
                         active_cf_sum8:log(campaign_donations_sum8+1) + 
                         crp_qual_ideo_ind +
-                        log(QuarterExp50001l+1):crp_qual_ideo_ind + 
-                        active_cf_sum8:crp_qual_ideo_ind + 
-                        active_cf_sum8:log(campaign_donations_sum8+1):crp_qual_ideo_ind +
                         ACC + ADV + AER + AGR + ALC + ANI + APP + ART +
                         AUT + AVI + BAN + BEV + BNK + BUD + CAW + CDT + CHM + CIV + COM +
                         CON + CPI + CPT + CSP + DEF + DIS + DOC + ECN + EDU + ENG + ENV +
@@ -41,13 +61,11 @@ priors_df <-get_prior(any_visits_perfect ~ any_visits_perfect1l + self_lobby +
                         SMB + SPO + TAR + TAX + TEC + TOB + TOR + TOU + TRA + TRD + TRF +
                         TRU + UNM + URB + UTI + VET + WAS + WEL +
                         (1|q|yearperiod) + 
-                        (1+ log(QuarterExp50001l+1) + active_cf_sum8 + 
-                           active_cf_sum8:log(campaign_donations_sum8+1)|p|crp_orgnames:Industry.y) + 
-                        (1 + log(QuarterExp50001l+1) + active_cf_sum8 +
-                           active_cf_sum8:log(campaign_donations_sum8+1)|r|Industry.y),
-                      data= final_df_sub, family=bernoulli(link = "logit"), 
-                      prior = manual_priors, refresh = 10, control=list(adapt_delta=0.9999),
-                      chains = 4, cores = 4, iter = 2000, seed = 1989)
+                        (1|p|crp_orgnames:Industry.y) + 
+                        (1|r|Industry.y),
+                      data= final_df_sub, family=bernoulli(link = "logit"))#, 
+                      #prior = manual_priors, refresh = 10,
+                      #chains = 4, cores = 4, iter = 2000, seed = 1989)
 
 priors_df$prior <- ifelse(priors_df$class=="b", "normal(0, 10)", priors_df$prior)
 priors_df$prior <- ifelse(priors_df$class=="cor", "lkj(1)", priors_df$prior)
@@ -55,13 +73,14 @@ priors_df$prior <- ifelse(priors_df$class=="sd"|priors_df$class=="Intercept", "s
 
 beginning <- Sys.time()
 
-fit_access_all <- brm(any_visits_perfect ~ any_visits_perfect1l + self_lobby + 
+fit_access_all <- brm(mvbind(access_principals_Q1st_perfect,
+                             access_nonprincipals_Q1st_perfect) ~ 
+                        access_principals_Q1st_perfect1l +
+                        access_nonprincipals_Q1st_perfect1l + 
+                        self_lobby + 
                         log(QuarterExp50001l+1) + active_cf_sum8 + 
                         active_cf_sum8:log(campaign_donations_sum8+1) + 
                         crp_qual_ideo_ind +
-                        log(QuarterExp50001l+1):crp_qual_ideo_ind + 
-                        active_cf_sum8:crp_qual_ideo_ind + 
-                        active_cf_sum8:log(campaign_donations_sum8+1):crp_qual_ideo_ind +
                         ACC + ADV + AER + AGR + ALC + ANI + APP + ART +
                         AUT + AVI + BAN + BEV + BNK + BUD + CAW + CDT + CHM + CIV + COM +
                         CON + CPI + CPT + CSP + DEF + DIS + DOC + ECN + EDU + ENG + ENV +
@@ -71,18 +90,29 @@ fit_access_all <- brm(any_visits_perfect ~ any_visits_perfect1l + self_lobby +
                         SMB + SPO + TAR + TAX + TEC + TOB + TOR + TOU + TRA + TRD + TRF +
                         TRU + UNM + URB + UTI + VET + WAS + WEL +
                         (1|q|yearperiod) + 
-                        (1+ log(QuarterExp50001l+1) + active_cf_sum8 + 
-                           active_cf_sum8:log(campaign_donations_sum8+1)|p|crp_orgnames:Industry.y) + 
-                        (1 + log(QuarterExp50001l+1) + active_cf_sum8 +
-                           active_cf_sum8:log(campaign_donations_sum8+1)|r|Industry.y),
+                        (1|p|crp_orgnames:Industry.y) + 
+                        (1|r|Industry.y),
                       data= final_df_sub, family=bernoulli(link = "logit"), 
-                      prior = priors_df,
+                      prior = priors_df, #sample_prior="only", 
                       refresh = 10, control=list(adapt_delta=0.9999),
-                      chains = 4, cores = 4, iter = 3000, seed = 1989)
+                      chains = 4, cores = 4, iter = 2000, seed = 1989)
 
 summary(fit_access_all)
 
 end <- Sys.time()
 end-beginning
 
-save(fit_access_all, file="BRMSModels\\brms_inter_fullsample.RData")
+# model diagnostics
+
+# any divergent transitions?
+
+sum(nuts_params(fit_access_all, pars = "divergent__")$Value)
+
+# any rhats above 1.1?
+
+sort(rhat(fit_access_all), decreasing = TRUE)[1:10]
+
+# neff ratio sufficiently large (>0.001 for all parameters?)
+sort(neff_ratio(fit_access_all), decreasing = FALSE)[1:10]
+
+save(fit_access_all, file="BRMSModels\\brms_nointer_fullsample_bilevels.RData")
