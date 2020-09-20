@@ -15,7 +15,9 @@ output:
 
 [Mann, Christopher B., Gayle A. Alberda, Nathaniel A. Birkhead, $\ldots$, David Miller, $\ldots$, et al. 2018. "Pedagogical Value of Polling Place Observation By Students." *PS: Political Science & Politics*, 51(4), 831-837.](files/Perspectives_Voting.pdf)
 
-[Miller, David R. and Andrew Reeves. 2017.  "Attitudes toward Delegation to Presidential Commissions." *Presidential Studies Quarterly*, 47(3), 495-516.](files/Commissions.pdf) [*Supplemental Information*](files/CommissionsAppendix.docx)
+[Miller, David R. and Andrew Reeves. 2017.  "Attitudes toward Delegation to Presidential Commissions." *Presidential Studies Quarterly*, 47(3), 495-516.](files/Commissions.pdf) 
+
+- [Supplemental Information](files/CommissionsAppendix.docx)
 
 ### Other Academic Publications
 
@@ -29,7 +31,7 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 [Miller, David R.  "Empirical Approaches to the Study of Access."](files/AccessApproaches.pdf)
 
-[Miller, David R. "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."](files/DRM_Targeting_v5.pdf)
+[Miller, David R. "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Invited to revise and resubmit at Legislative Studies Quarterly*.](files/DRM_Targeting_v5.pdf)
 
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests."](files/WHEngagement.pdf)
 
