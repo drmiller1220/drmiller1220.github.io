@@ -11,6 +11,8 @@ output:
 
 ### Journal Articles
 
+[Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_v6.pdf)
+
 [Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study." *Political Research Quarterly*, 73(2), 439-453.](files/PRQ_Voting.pdf)
 
 [Mann, Christopher B., Gayle A. Alberda, Nathaniel A. Birkhead, $\ldots$, David Miller, $\ldots$, et al. 2018. "Pedagogical Value of Polling Place Observation By Students." *PS: Political Science & Politics*, 51(4), 831-837.](files/Perspectives_Voting.pdf)
@@ -30,8 +32,6 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 [Butler, Daniel M. and David R. Miller.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures."](files/LobbyingImpact.pdf)
 
 [Miller, David R.  "Empirical Approaches to the Study of Access."](files/AccessApproaches.pdf)
-
-[Miller, David R. "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Invited to revise and resubmit at Legislative Studies Quarterly*.](files/DRM_Targeting_v6.pdf)
 
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests."](files/WHEngagement.pdf)
 
