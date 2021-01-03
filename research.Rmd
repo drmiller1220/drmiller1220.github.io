@@ -13,7 +13,7 @@ output:
 
 [Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_final.pdf)
 
-[Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Conditionally accepted at at Journal of Public Policy*.](files/main-rr.pdf)
+[Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Conditionally accepted at Journal of Public Policy*.](files/main-rr.pdf)
 
 [Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study." *Political Research Quarterly*, 73(2), 439-453.](files/PRQ_Voting.pdf)
 
