@@ -13,6 +13,8 @@ output:
 
 [Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_final.pdf)
 
+[Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Conditionally accepted at at Journal of Public Policy*.](files/main-rr.pdf)
+
 [Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study." *Political Research Quarterly*, 73(2), 439-453.](files/PRQ_Voting.pdf)
 
 [Mann, Christopher B., Gayle A. Alberda, Nathaniel A. Birkhead, $\ldots$, David Miller, $\ldots$, et al. 2018. "Pedagogical Value of Polling Place Observation By Students." *PS: Political Science & Politics*, 51(4), 831-837.](files/Perspectives_Voting.pdf)
@@ -23,19 +25,17 @@ output:
 
 ### Other Academic Publications
 
-[Reeves, Andrew, David R. Miller, and Bryant Moy.  2018.  "U.S. Presidential Campaigns and Their Impact."  In *Oxford Bibliographies in Political Science*.](http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml)
-
 Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Polling Place Quality and Access." In *The Future of Election Administration*, Mitchell Brown, Kathleen Hale, and Bridgett A. King, Eds.  Palgrave Macmillan, 83-100.
+
+[Reeves, Andrew, David R. Miller, and Bryant Moy.  2018.  "U.S. Presidential Campaigns and Their Impact."  In *Oxford Bibliographies in Political Science*.](http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml)
 
 ### Working Papers
 
-[Butler, Daniel M. and David R. Miller.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures."](files/LobbyingImpact.pdf)
+[Butler, Daniel M. and David R. Miller.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Invited to revise and resubmit at Political Research Quarterly*.](files/LobbyingImpact.pdf)
 
-[Miller, David R.  "Empirical Approaches to the Study of Access."](files/AccessApproaches.pdf)
+[Miller, David R. "Empirical Approaches to the Study of Access."](files/AccessApproaches.pdf)
 
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests."](files/WHEngagement.pdf)
-
-[Miller, David R. and Andrew Reeves.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Invited to revise and resubmit at Journal of Public Policy*.](files/main-rr.pdf)
 
 ### Works in Progress
 
