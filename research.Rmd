@@ -15,6 +15,10 @@ output:
 
 [Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Conditionally accepted at Journal of Public Policy*.](files/main-rr.pdf)
 
+[Butler, Daniel M. and David R. Miller. Forthcoming.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Conditionally accepted at Political Research Quarterly*.](files/LobbyingImpact.pdf)
+
+- [Supplemental Information](files/LobbyingImpactSI.pdf)
+
 [Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study." *Political Research Quarterly*, 73(2), 439-453.](files/PRQ_Voting.pdf)
 
 [Mann, Christopher B., Gayle A. Alberda, Nathaniel A. Birkhead, $\ldots$, David Miller, $\ldots$, et al. 2018. "Pedagogical Value of Polling Place Observation By Students." *PS: Political Science & Politics*, 51(4), 831-837.](files/Perspectives_Voting.pdf)
@@ -31,19 +35,19 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 ### Working Papers
 
-[Butler, Daniel M. and David R. Miller.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Invited to revise and resubmit at Political Research Quarterly*.](files/LobbyingImpact.pdf)
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Dishonorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."](files/JudicialScandal.pdf)
 
-[Miller, David R. "Empirical Approaches to the Study of Access."](files/AccessApproaches.pdf)
+[Miller, David R. "Empirical Approaches to the Study of Access." *Invited to revise and resubmit at Interest Groups \& Advocacy*.](files/AccessApproaches.pdf)
 
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests."](files/WHEngagement.pdf)
 
 ### Works in Progress
 
-Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Kevlar Courts: The Bulwark of Public Support in Scandal-Ridden Political Institutions."
-
 Butler, Ryden, JB Duck-Mayr, David R. Miller, and Erin Rossiter.  "May It Please the President? The Role of Deference to Executive Power in Supreme Court Nominations."
 
-Miller, David R. and Jeffrey Ziegler.  ``Preferential Abstention in Conjoint Experiments."
+Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Hiring Representative Agents or Skill Sets? Principal-Agent Problems in Hiring Lobbyists."
+
+Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."
 
 ### Public Scholarship
 
