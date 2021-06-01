@@ -13,9 +13,9 @@ output:
 
 [Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_final.pdf)
 
-[Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Conditionally accepted at Journal of Public Policy*.](files/main-rr.pdf)
+[Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Journal of Public Policy*.](files/main-rr.pdf)
 
-[Butler, Daniel M. and David R. Miller. Forthcoming.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Conditionally accepted at Political Research Quarterly*.](files/LobbyingImpact.pdf)
+[Butler, Daniel M. and David R. Miller. Forthcoming.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*.](files/LobbyingImpact.pdf)
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
 
@@ -35,7 +35,7 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 ### Working Papers
 
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Dishonorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."](files/JudicialScandal.pdf)
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."](files/JudicialScandal.pdf)
 
 [Miller, David R. "Empirical Approaches to the Study of Access." *Invited to revise and resubmit at Interest Groups \& Advocacy*.](files/AccessApproaches.pdf)
 
@@ -50,6 +50,8 @@ Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "H
 Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."
 
 ### Public Scholarship
+
+["New evidence that lobbying affects legislative outcomes."  *3Streams*.  May 30, 2021](https://medium.com/3streams/new-evidence-that-lobbying-affects-legislative-outcomes-c350b5ea5475)
 
 ["Here's the evidence lobbyists are trying to persuade your member of Congress."  *3Streams*.  February 2, 2021](https://medium.com/3streams/who-do-lobbyists-lobby-in-congress-af0d53315ee8)
 
