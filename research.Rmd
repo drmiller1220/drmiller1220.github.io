@@ -11,6 +11,8 @@ output:
 
 ### Journal Articles
 
+[Miller, David R.  Forthcoming.  "Empirical Approaches to the Study of Access." *Interest Groups \& Advocacy*.](files/AccessApproaches.pdf)
+
 [Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_final.pdf)
 
 [Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Journal of Public Policy*.](files/main-rr.pdf)
@@ -36,8 +38,6 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 ### Working Papers
 
 [Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."](files/JudicialScandal.pdf)
-
-[Miller, David R. "Empirical Approaches to the Study of Access." *Invited to revise and resubmit at Interest Groups \& Advocacy*.](files/AccessApproaches.pdf)
 
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests."](files/WHEngagement.pdf)
 
