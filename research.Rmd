@@ -11,8 +11,6 @@ output:
 
 ### Journal Articles
 
-[Miller, David R.  Forthcoming.  "Empirical Approaches to the Study of Access." *Interest Groups \& Advocacy*.](files/AccessApproaches.pdf)
-
 [Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_final.pdf)
 
 [Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Journal of Public Policy*.](files/main-rr.pdf)
@@ -20,6 +18,8 @@ output:
 [Butler, Daniel M. and David R. Miller. Forthcoming.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*.](files/LobbyingImpact.pdf)
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
+
+[Miller, David R.  2021  "Empirical Approaches to the Study of Access." *Interest Groups \& Advocacy*, 10(3), 286-302.](files/AccessApproaches.pdf)
 
 [Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study." *Political Research Quarterly*, 73(2), 439-453.](files/PRQ_Voting.pdf)
 

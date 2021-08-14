@@ -2,6 +2,7 @@ name: "David Ryan Miller"
 output_dir: "."
 navbar:
   title: "David Ryan Miller"
+  type: default
   left:
     - text: "CV"
       href: CV.html
@@ -13,7 +14,7 @@ navbar:
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:david.r.miller@vanderbilt.edu
+      href: mailto:millerdr3@etsu.edu
     - icon: fa-twitter fa-lg
       href: https://twitter.com/DrDRMiller
 output:

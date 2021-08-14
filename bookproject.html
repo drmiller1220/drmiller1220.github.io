@@ -19,6 +19,15 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -34,12 +43,16 @@
   gtag('config', 'UA-80184180-2');
 </script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +65,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -88,10 +76,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +92,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +126,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +138,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -192,10 +149,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,7 +177,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -298,7 +267,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:david.r.miller@vanderbilt.edu">
+  <a href="mailto:millerdr3@etsu.edu">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -314,7 +283,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -325,12 +294,13 @@ $(document).ready(function () {
 <p> </p>
 <div id="all-the-presidents-organized-interests" class="section level3">
 <h3>All the President’s Organized Interests</h3>
-<p>My book project, “All the President’s Organized Interests,” examines how presidents interact with organized interests to pursue their goals. Though both scholars and practitioners acknowledge presidents and organized interests as formidable actors in American politics, few studies examine the interactions between these actors. I posit that presidents engage with organized interests to shift the balance of organized interest activity in presidents’ favor. I further argue that, in order to maximize the effectiveness of this engagement, presidents are more likely to engage with organized interests who have large resource endowments and who are copartisans of the incumbent. I assess these expectations by evaluating three interrelated questions: with which organized interests do presidents engage?; how do presidents encourage the interests with which they engage to cooperate with them?; and how does presidents’ engagement with organized interests help presidents achieve their goals?</p>
-<p>In one chapter, I consider with which organized interests presidents engage. I argue that presidents engage with interests from whom they expect the highest rates of return from engagement: interests with large resource endowments and who are copartisans of the incumbent. To test these expectations, I utilize over 7 million White House visitor logs records from the Clinton, Obama, and Trump presidencies to identify instances in which presidents provided access to organized interests, which I argue is a clear signal of presidents’ engagement with them. I further supplement these records with other data sources, including Lobbying Disclosure Act filings and White House personnel salary reports. While some of this data is accessible online, I acquired much of it through FOIA requests and archival work at the Clinton Presidential Library. I leverage this data to estimate multilevel models examining the relationships between organized interests’ White House access and their lobbying expenditures, campaign contributions to candidates for federal office, and the partisan alignment of their industries with the incumbent. I find that presidents are more likely to provide access to interests with higher levels of resources and, to a lesser extent, to interests in industries aligned with the their party, suggesting that presidents perpetuate inequalities in political voice present in other institutions. I also draw on an original survey of approximately 600 organized interest representatives and fifteen interviews with former White House officials and organized interest representatives to inform my theoretical claims and contextualize my findings.</p>
-<p>In another chapter, I examine how presidents encourage cooperation from organized interests. Though interests sometimes cooperate with presidents because of shared goals, presidents can incentivize recalcitrant interests or boost the effort interests exert with selective incentives at their disposal by way of their unilateral powers. I argue that presidents allocate these incentives to organized interests to whom they provide White House access. I evaluate this expectation with multilevel models which assess whether presidents are more likely to provide federal grants, appointments to advisory commissions, and mentions in the White House’s public statements to organized interests to whom they previously provided access. My results support this expectation, suggesting that presidents’ engagement with organized interests contributes to disparities not only in political voice, but also the distribution of political and policy resources.</p>
-<p>In a subsequent chapter, I examine whether presidents’ engagement with organized interests advances their goals. In many cases, organized interests’ activity with regard to presidents’ initiatives is hard to observe. For example, lacking information about when presidents encourage organized interests to pressure Congress on their behalf and records of interests’ efforts to lobby members of Congress, we cannot evaluate whether presidential engagement induces organized interests to exert lobbying effort and whether that effort advances’ presidents objectives. In light of this challenge, I focus on a publicly observable activity in which presidents encourage organized interests to engage—the issuance of statements of support for presidents’ policies. First, drawing on fifteen interviews with former White House officials and organized interest representatives, I detail how the White House stimulates the organized interests with which it engages to provide these statements in hopes of bolstering the public’s support for and perceived legitimacy of its policies. Second, I evaluate whether organized interests’ statements of support for presidents’ policies influence public attitudes with a survey experiments which varies the number and partisan affiliation of interests expressing support for presidents’ policies. My results indicate that organized interests’ statements of support for presidents’ policies increases the public’s support for, but not perceived legitimacy of, those policies.</p>
-<p>My book project both offers theoretical contributions to several different areas of study in American politics and highlights substantive implications of presidents’ interactions with organized interests. I not only help to start bridging the scholarly gap between the presidency and organized interests, but also demonstrate how presidents use their powers to provide representation to select subgroups of the political system, rather than the country as a whole, in a context outside of electoral politics. In addition, whereas most studies of organized interests’ influence on the policy process focus on Congress, I highlight the pathways by which organized interests enjoy influence through the executive branch and consider how the president perpetuates inequality of political voice among the universe of interests in society.</p>
-<p>This book project emerges from my dissertation, which received the 2021 George C. Edwards III Dissertation Award for the best dissertation on executive politics completed and accepted in 2019 or 2020. I am currently in the process of collecting additional data and revising the manuscript, as well as preparing related article-length manuscripts for submission.</p>
+<p>My book project, “All the President’s Organized Interests,” examines how presidents interact with organized interests to pursue their goals. Though both scholars and practitioners acknowledge presidents and organized interests as formidable actors in American politics, few studies examine the interactions between these actors. I posit that presidents engage with organized interests to channel their institutional resources, such as their electoral and lobbying capabilities, in service of presidents’ goals. I further argue that, in order to maximize the effectiveness of this engagement, presidents are more likely to engage with organized interests who have large resource endowments and who share the partisan and ideological preferences of the incumbent. I assess these expectations by evaluating three interrelated questions: with which organized interests do presidents engage?; how do presidents encourage the interests with which they engage to cooperate with them?; and how does presidents’ engagement with organized interests help presidents achieve their goals?</p>
+<p>My theory and empirical expectations rest on the assertion that presidents, not organized interests, exert primary control over engagement, or reciprocal communication and coordination between presidents and organized interests concerning electoral or policy goals. Because this assertion diverges from the traditional understanding of organized interests’ interactions with policymakers, wherein interests’ motives and strategic choices drive engagement, I draw on 15 interviews with former White House officials and organized interest representatives and a survey conducted with over 700 federal lobbyists to demonstrate how presidents take the lead in engaging with interests. Evidence drawn from these interviews and survey responses indicate that organized interests tend to focus their lobbying efforts on Congress and the bureaucracy, such that interactions with the White House are more likely to be driven by the president; that the White House actively cultivates relationships with interests and initiates instances of engagement; and that organized interests are more responsive to entreaties from the White House than vice versa. Collectively, this evidence illustrates that, unlike in other institutional venues, presidents’ motives and strategic choices guide their decisions to engage with organized interests.</p>
+<p>After establishing the primacy of presidents in the engagement dynamic and explicating my theory, I turn to evaluating my three research questions. First, I consider with which organized interests presidents engage. I argue that presidents engage with interests from whom they expect the highest rates of return from engagement: interests with large resource endowments and who share the incumbent’s ideological and partisan preferences. To test these expectations, I utilize over 7 million White House visitor logs records from the Clinton and Obama presidencies to identify instances in which presidents provided access to organized interests. I further supplement these records with other data sources, including Lobbying Disclosure Act filings and White House personnel salary reports. While some of this data is accessible online, I acquired much of it through FOIA requests and archival work at the Clinton Presidential Library. I leverage this data to estimate multilevel models examining the relationships between organized interests’ White House access and their lobbying expenditures, campaign contributions to candidates for federal office, and the partisan alignment of their industries with the incumbent. I find that presidents are more likely to provide access to interests with higher levels of resources and to interests in industries aligned with the incumbent’s party, suggesting that presidents perpetuate inequalities in political voice present in other institutions.</p>
+<p>Second, I examine how presidents encourage cooperation from organized interests. Though interests sometimes cooperate with presidents because of shared goals, presidents can incentivize recalcitrant interests or boost the effort interests exert with selective incentives at their disposal by way of their unilateral powers. I argue that presidents allocate these incentives to organized interests to whom they provide White House access. I evaluate this expectation with multilevel models which assess whether presidents are more likely to provide federal grants, appointments to advisory commissions, and mentions in the White House’s public statements to organized interests to whom they previously provided access. My results support this expectation, suggesting that presidents’ engagement with organized interests contributes to disparities not only in political voice, but also the distribution of political and policy resources.</p>
+<p>Third, I examine whether presidents’ engagement with organized interests advances their goals. In many cases, organized interests’ activity with regard to presidents’ initiatives is hard to observe. For example, lacking information about when presidents encourage interests to pressure Congress on their behalf and records of interests’ efforts to lobby members of Congress, we cannot evaluate whether presidential engagement induces organized interests to exert lobbying effort and whether that effort advances’ presidents objectives. In light of this challenge, I use an experimental approach to recreate this typically unobservable strategic environment. Specifically, I evaluate whether presidential engagement efforts motivate organized interests to utilize institutional resources in ways consonant with the White House’s preferences through a survey experiment conducted with nearly 900 federal lobbyists. Subsequently, I examine whether organized interests’ public statements of support for presidents’ prioritiesone of the key activities the White House encourages interests to conductincreases public support for those priorities. My results indicate that presidential engagement increases organized interests’ willingness to exert effort on behalf of presidents’ priorities and that interests’ statements of support for presidents’ priorities bolster public approval for those policies.</p>
+<p>My book project both offers theoretical contributions to several different areas of study in American politics and highlights substantive implications of presidents’ interactions with organized interests. I not only help to start bridging the scholarly gap between the presidency and organized interests, but also demonstrate how presidents use their powers to provide representation to select subgroups of the political system, rather than the country as a whole, in a context outside of electoral politics. Further, whereas recent research on the presidential toolkit focuses on formal powers presidents can exercise unilaterally, such as executive orders and the management of appointments and vacancies in the bureaucracy, I highlight an overlooked utensil in the toolkit: presidents’ ability to mobilize coalitions of organized interests. In addition, whereas most studies of organized interests’ influence on the policy process focus on Congress, I highlight the pathways by which organized interests enjoy influence through the executive branch and consider how the president perpetuates inequality of political voice among the universe of interests in society.</p>
+<p>This book project emerges from my dissertation, which received the 2021 George C. Edwards III Dissertation Award from APSA’s Presidents and Executive Politics section.</p>
 </div>
 
 
@@ -342,7 +312,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -360,7 +330,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

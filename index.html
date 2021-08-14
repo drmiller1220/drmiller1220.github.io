@@ -19,6 +19,15 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -34,12 +43,16 @@
   gtag('config', 'UA-80184180-2');
 </script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -52,32 +65,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
@@ -88,10 +76,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -108,40 +92,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -169,7 +126,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -181,7 +138,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -192,10 +149,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -207,7 +177,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -298,7 +267,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:david.r.miller@vanderbilt.edu">
+  <a href="mailto:millerdr3@etsu.edu">
     <span class="fa fa-envelope fa-lg"></span>
      
   </a>
@@ -314,7 +283,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -323,9 +292,10 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><img src="images/DRM_STL.jpg" style="width:30%; border:0px solid; margin-right: 20px" align="left"></p>
-<p> </p>
-<p>I am a Postdoctoral Research Scholar at <a href="https://www.vanderbilt.edu/csdi/">Vanderbilt University’s Center for the Study of Democratic Institutions</a>. My research centers on American political institutions, with a focus on the presidency, organized interests, and legislative politics, and addresses substantive issues including representation and inequality in political voice. My work applies quantitative approaches to analyze both observational “big data” and original surveys and experiments conducted with elite and mass public samples. I received my PhD in <a href="https://polisci.wustl.edu/">Political Science from Washington University in St. Louis</a> in May 2020.</p>
+<p><img src="images/DRM_STL.jpg" style="width:38%; border:0px solid; margin-right: 20px" align="left"></p>
+<p>I am an Assistant Professor of <a href="https://www.etsu.edu/cas/polisci/">Political Science at East Tennessee State University</a>. My research centers on American political institutions, with a focus on the presidency, organized interests, and legislative politics, and addresses substantive issues including representation and inequality in political voice. My work applies quantitative approaches to analyze both observational “big data” and original surveys and experiments conducted with elite and mass public samples. My research has appeared in academic journals such as <em>Journal of Public Policy</em>, <em>Legislative Studies Quarterly</em>, <em>Political Research Quarterly</em>, and <em>Presidential Studies Quarterly</em>, and I received the 2021 George C. Edwards III Dissertation Award for the best dissertation on executive politics completed and accepted in 2019 or 2020.</p>
+<p>I am also a co-organizer of the <a href="https://jawspolisci.network/">Junior Americanist Workshop Series (JAWS)</a>, a virtual research seminar for founded during the COVID-19 pandemic.</p>
+<p>Before coming to ETSU, I served as a Postdoctoral Research Scholar at <a href="https://www.vanderbilt.edu/csdi/">Vanderbilt University’s Center for the Study of Democratic Institutions</a> during the 2020-21 academic year. I received my PhD in <a href="https://polisci.wustl.edu/">Political Science from Washington University in St. Louis</a> in May 2020.</p>
 
 
 
@@ -336,7 +306,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -354,7 +324,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
