@@ -9,7 +9,7 @@ output:
 
 &nbsp;  
 
-### All the President's Organized Interests
+### *All the President's Organized Interests*
 
 My book project, "All the President's Organized Interests," examines how presidents interact with organized interests to pursue their goals.  Though both scholars and practitioners acknowledge presidents and organized interests as formidable actors in American politics, few studies examine the interactions between these actors.  I posit that presidents engage with organized interests to channel their institutional resources, such as their electoral and lobbying capabilities, in service of presidents' goals.  I further argue that, in order to maximize the effectiveness of this engagement, presidents are more likely to engage with organized interests who have large resource endowments and who share the partisan and ideological preferences of the incumbent.  I assess these expectations by evaluating three interrelated questions: with which organized interests do presidents engage?; how do presidents encourage the interests with which they engage to cooperate with them?; and how does presidents' engagement with organized interests help presidents achieve their goals?
 
