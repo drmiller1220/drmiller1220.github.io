@@ -19,6 +19,8 @@ output:
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
 
+[Ladam, Christina, Austin Bussing, Alexander C. Furnas, Josh McCrain, David R. Miller, and Rachel Porter.  Forthcoming.  "The Junior Americanist Workshop Series (JAWS)."  *PS: Political Science & Politics*.](files/JAWS PS Submission.pdf)
+
 [Miller, David R.  2021  "Empirical Approaches to the Study of Access." *Interest Groups \& Advocacy*, 10(3), 286-302.](files/AccessApproaches.pdf)
 
 [Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study." *Political Research Quarterly*, 73(2), 439-453.](files/PRQ_Voting.pdf)
