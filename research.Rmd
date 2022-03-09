@@ -11,15 +11,15 @@ output:
 
 ### Journal Articles
 
-[Miller, David R.  Forthcoming.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*.](files/DRM_Targeting_final.pdf)
-
-[Miller, David R. and Andrew Reeves.  Forthcoming.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Journal of Public Policy*.](files/main-rr.pdf)
-
 [Butler, Daniel M. and David R. Miller. Forthcoming.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*.](files/LobbyingImpact.pdf)
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
 
 [Ladam, Christina, Austin Bussing, Alexander C. Furnas, Josh McCrain, David R. Miller, and Rachel Porter.  Forthcoming.  "The Junior Americanist Workshop Series (JAWS)."  *PS: Political Science & Politics*.](files/JAWS PS Submission.pdf)
+
+[Miller, David R.  2022.  "On Whose Door to Knock? Lobbyists' Strategic Pursuit of Access to Members of Congress."  *Legislative Studies Quarterly*, 47(1), 157-192.](files/DRM_Targeting_final.pdf)
+
+[Miller, David R. and Andrew Reeves.  2022.  "Pass the Buck or the Buck Stops Here?  The Effectiveness of Claiming and Deflecting Blame by Elected Executives."  *Journal of Public Policy*, 42(1), 63-91.](files/main-rr.pdf)
 
 [Miller, David R.  2021  "Empirical Approaches to the Study of Access." *Interest Groups \& Advocacy*, 10(3), 286-302.](files/AccessApproaches.pdf)
 
@@ -39,17 +39,21 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 ### Working Papers
 
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support." *Invited to revise and resubmit at American Political Science Review*.](files/JudicialScandal.pdf)
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."](files/JudicialScandal.pdf)
+
+Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Hiring Representative Agents or Skill Sets? Principal-Agent Problems in Hiring Lobbyists."
+
+Lewis, David E. and David R. Miller.  "Legislators and Federal Agency Performance."
 
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Invited to revise and resubmit at American Political Science Review*.](files/WHEngagement.pdf)
+
+Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."
 
 ### Works in Progress
 
 Butler, Ryden, JB Duck-Mayr, David R. Miller, and Erin Rossiter.  "May It Please the President? The Role of Deference to Executive Power in Supreme Court Nominations."
 
-Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Hiring Representative Agents or Skill Sets? Principal-Agent Problems in Hiring Lobbyists."
-
-Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."
+Miller, David R. and Chris Piper.  "Costs for Not Appointing?: The Public Attitudes Towards Executive Branch Vacancies."
 
 ### Public Scholarship
 
