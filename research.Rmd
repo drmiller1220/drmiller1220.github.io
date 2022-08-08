@@ -15,7 +15,9 @@ output:
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
 
-[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Conditionally accepted at American Political Science Review*.](files/WHEngagement.pdf)
+[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Conditionally accepted at American Political Science Review*.](files/APSR_Final_Main.pdf)
+
+- [Supplemental Information](files/APSR_Final_SI.pdf)
 
 [Ladam, Christina, Austin Bussing, Alexander C. Furnas, Josh McCrain, David R. Miller, and Rachel Porter.  2022.  "The Junior Americanist Workshop Series (JAWS)."  *PS: Political Science & Politics*, 55(3):552-553.](files/JAWS PS Submission.pdf)
 
@@ -41,9 +43,11 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 ### Working Papers
 
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Invited to revise and resubmit at PS: Political Science & Politics*.](files/JudicialScandal.pdf)
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Invited to revise and resubmit at PS: Political Science & Politics*.](files/JudicialScandal.docx)
 
-Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Hiring Representative Agents or Skill Sets? Principal-Agent Problems in Hiring Lobbyists."
+- [Supplemental Information](files/JudicialScandal_SI.pdf)
+
+[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions."](files/Lobbying_Hiring.pdf)
 
 [Lewis, David E. and David R. Miller.  "Partisanship and Support for the Administrative State in the U.S. Senate."](files/LSQShort_Blind_Main.docx) 
 
@@ -52,6 +56,7 @@ Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "H
 Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."
 
 ### Works in Progress
+
 Miller, David R. and Chris Piper.  "Costs for Not Appointing?: The Public Attitudes Towards Executive Branch Vacancies."
 
 ### Public Scholarship

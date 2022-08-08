@@ -9,7 +9,7 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/DRM_STL.jpg" style="width:38%; border:0px solid; margin-right: 20px" align="left">
+<img src="images/DRM_STL.jpg" style="width:42%; border:0px solid; margin-right: 20px" align="left">
 
 I am an Assistant Professor of [Political Science at East Tennessee State University](https://www.etsu.edu/cas/polisci/).  My research centers on American political institutions, with a focus on the presidency, organized interests, and legislative politics, and addresses substantive issues including representation and inequality in political voice.  My work applies quantitative approaches to analyze both observational "big data" and original surveys and experiments conducted with elite and mass public samples.  My research has appeared in academic journals such as *Journal of Public Policy*, *Legislative Studies Quarterly*, *Political Research Quarterly*, and *Presidential Studies Quarterly*, and my dissertation received the 2021 George C. Edwards III Dissertation Award for the best dissertation on executive politics completed and accepted in 2019 or 2020.
 
