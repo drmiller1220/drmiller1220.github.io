@@ -53,7 +53,7 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 - [Supplemental Information](files/LSQShort_Blind_SI.docx)
 
-Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."
+[Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."](files/preferential_abstention.pdf)
 
 ### Works in Progress
 
