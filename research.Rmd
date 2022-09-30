@@ -15,7 +15,7 @@ output:
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
 
-[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Conditionally accepted at American Political Science Review*.](files/APSR_Final_Main.pdf)
+[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Forthcoming at American Political Science Review*.](files/APSR_Final_Main.pdf)
 
 - [Supplemental Information](files/APSR_Final_SI.pdf)
 
