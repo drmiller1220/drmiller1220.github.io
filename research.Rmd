@@ -11,11 +11,11 @@ output:
 
 ### Journal Articles
 
-[Butler, Daniel M. and David R. Miller.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Forthcoming at Political Research Quarterly*.](files/LobbyingImpact.pdf)
+[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Forthcoming at American Political Science Review*.](files/WH_Engagement_DRM.pdf)
+
+[Butler, Daniel M. and David R. Miller.  2022.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*, 75(3):547-561.](files/LobbyingImpact.pdf)
 
 - [Supplemental Information](files/LobbyingImpactSI.pdf)
-
-[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Forthcoming at American Political Science Review*.](files/WH_Engagement_DRM.pdf)
 
 [Ladam, Christina, Austin Bussing, Alexander C. Furnas, Josh McCrain, David R. Miller, and Rachel Porter.  2022.  "The Junior Americanist Workshop Series (JAWS)."  *PS: Political Science & Politics*, 55(3):552-553.](files/JAWS PS Submission.pdf)
 
@@ -55,7 +55,7 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 ### Works in Progress
 
-Miller, David R. and Chris Piper.  "Costs for Not Appointing?: The Public Attitudes Towards Executive Branch Vacancies."
+Miller, David R. and Chris Piper.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments."
 
 ### Public Scholarship
 
