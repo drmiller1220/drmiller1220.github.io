@@ -45,7 +45,7 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 - [Supplemental Information](files/JudicialScandal_SI.pdf)
 
-[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions."](files/Lobbying_Hiring.pdf)
+[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions."](files/Lobbyist_Hiring.pdf)
 
 [Lewis, David E. and David R. Miller.  "Partisanship and Support for the Administrative State in the U.S. Senate."  *Invited to revise and resubmit at Legislative Studies Quarterly*.](files/LSQShort_Blind_Main.docx) 
 
