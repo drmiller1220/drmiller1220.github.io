@@ -11,6 +11,10 @@ output:
 
 ### Journal Articles
 
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Forthcoming at PS: Political Science & Politics*.](files/JudicialScandal.docx)
+
+- [Supplemental Information](files/JudicialScandal_SI.pdf)
+
 [Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Forthcoming at American Political Science Review*.](files/WH_Engagement_DRM.pdf)
 
 [Butler, Daniel M. and David R. Miller.  2022.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*, 75(3):547-561.](files/LobbyingImpact.pdf)
@@ -40,10 +44,6 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 [Reeves, Andrew, David R. Miller, and Bryant Moy.  2018.  "U.S. Presidential Campaigns and Their Impact."  In *Oxford Bibliographies in Political Science*.](http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml)
 
 ### Working Papers
-
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Invited to revise and resubmit at PS: Political Science & Politics*.](files/JudicialScandal.docx)
-
-- [Supplemental Information](files/JudicialScandal_SI.pdf)
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions."](files/Lobbyist_Hiring.pdf)
 

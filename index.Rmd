@@ -9,11 +9,11 @@ output:
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/DRM_STL.jpg" style="width:50%; border:0px solid; margin-right: 20px" align="left">
+<img src="images/DRM_STL.jpg" style="width:35%; border:0px solid; margin-left: 20px" align="right">
 
 I am an Assistant Professor of [Political Science at East Tennessee State University](https://www.etsu.edu/cas/polisci/).  My research centers on American political institutions, with a focus on the presidency, organized interests, and legislative politics, and addresses substantive issues including representation and inequality in political voice.  My work applies quantitative approaches to analyze both observational "big data" and original surveys and experiments conducted with elite and mass public samples.  
 
-My research has been published in or is forthcoming at academic journals such as *American Political Science Review*, *Journal of Public Policy*, *Legislative Studies Quarterly*, *Political Research Quarterly*, and *Presidential Studies Quarterly*, and my dissertation received the 2021 George C. Edwards III Dissertation Award for the best dissertation on executive politics completed and accepted in 2019 or 2020.
+My research has been published in or is forthcoming at academic journals such as *American Political Science Review*, *Journal of Public Policy*, *Legislative Studies Quarterly*, *Political Research Quarterly*, *Presidential Studies Quarterly*, and *PS: Political Science \& Politics*, and my dissertation received the 2021 George C. Edwards III Dissertation Award for the best dissertation on executive politics completed and accepted in 2019 or 2020.
 
 I am also a founding co-organizer of the [Junior Americanist Workshop Series (JAWS)](https://jawspolisci.network/), a virtual research seminar for early career American politics scholars founded during the COVID-19 pandemic.
 
