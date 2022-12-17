@@ -15,7 +15,7 @@ output:
 
 - [Supplemental Information](files/JudicialScandal_SI.pdf)
 
-[Miller, David R. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *Forthcoming at American Political Science Review*.](files/WH_Engagement_DRM.pdf)
+[Miller, David Ryan.  First View. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *American Political Science Review*](files/WH_Engagement_DRM.pdf), [DOI: https://doi.org/10.1017/S0003055422001125](https://doi.org/10.1017/S0003055422001125).
 
 [Butler, Daniel M. and David R. Miller.  2022.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*, 75(3):547-561.](files/LobbyingImpact.pdf)
 
