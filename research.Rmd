@@ -11,7 +11,7 @@ output:
 
 ### Journal Articles
 
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. "Save These Honorable Courts: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Forthcoming at PS: Political Science & Politics*.](files/JudicialScandal.docx)
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  First View. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Forthcoming at PS: Political Science \& Politics*](files/JudicialScandal.docx), [DOI: https://doi.org/10.1017/S104909652200138X](DOI: https://doi.org/10.1017/S104909652200138X).
 
 - [Supplemental Information](files/JudicialScandal_SI.pdf)
 
@@ -46,6 +46,10 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 ### Working Papers
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions."](files/Lobbyist_Hiring.pdf)
+
+Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions."
+
+Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."
 
 [Lewis, David E. and David R. Miller.  "Partisanship and Support for the Administrative State in the U.S. Senate."  *Invited to revise and resubmit at Legislative Studies Quarterly*.](files/LSQShort_Blind_Main.docx) 
 
