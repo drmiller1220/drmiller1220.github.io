@@ -11,11 +11,11 @@ output:
 
 ### Journal Articles
 
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  First View. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *Forthcoming at PS: Political Science \& Politics*](files/JudicialScandal.docx), [DOI: https://doi.org/10.1017/S104909652200138X](DOI: https://doi.org/10.1017/S104909652200138X).
+[Miller, David Ryan.  First View. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *American Political Science Review*](files/WH_Engagement_DRM.pdf), [DOI: https://doi.org/10.1017/S0003055422001125](https://doi.org/10.1017/S0003055422001125).
+
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  2023. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *PS: Political Science \& Politics*, 56(2):195:200.](files/JudicialScandal.docx)
 
 - [Supplemental Information](files/JudicialScandal_SI.pdf)
-
-[Miller, David Ryan.  First View. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *American Political Science Review*](files/WH_Engagement_DRM.pdf), [DOI: https://doi.org/10.1017/S0003055422001125](https://doi.org/10.1017/S0003055422001125).
 
 [Butler, Daniel M. and David R. Miller.  2022.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*, 75(3):547-561.](files/LobbyingImpact.pdf)
 
@@ -51,15 +51,13 @@ Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "L
 
 Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."
 
-[Lewis, David E. and David R. Miller.  "Partisanship and Support for the Administrative State in the U.S. Senate."  *Invited to revise and resubmit at Legislative Studies Quarterly*.](files/LSQShort_Blind_Main.docx) 
-
-- [Supplemental Information](files/LSQShort_Blind_SI.docx)
+[Miller, David R. and Chris Piper.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments."](files/MillerPiper_Vacancies.pdf)
 
 [Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."](files/preferential_abstention.pdf)
 
 ### Works in Progress
 
-Miller, David R. and Chris Piper.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments."
+David R. Miller and Serena D. Smith.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."
 
 ### Public Scholarship
 
