@@ -47,9 +47,9 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions."](files/Lobbyist_Hiring.pdf)
 
-Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions."
+[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions.](files/Lobbyist_Discrimination.pdf)
 
-Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."
+[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."](files/LEscores.pdf)
 
 [Miller, David R. and Chris Piper.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments."](files/MillerPiper_Vacancies.pdf)
 
