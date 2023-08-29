@@ -14,7 +14,7 @@ navbar:
       href: teaching.html
   right:
     - icon: fa-envelope fa-lg
-      href: mailto:millerdr3@etsu.edu
+      href: mailto:dmiller@ucr.edu
     - icon: fa-twitter fa-lg
       href: https://twitter.com/DrDRMiller
 output:
