@@ -11,11 +11,11 @@ output:
 
 ### Journal Articles
 
-[Miller, David Ryan.  First View. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *American Political Science Review*](files/WH_Engagement_DRM.pdf), [DOI: https://doi.org/10.1017/S0003055422001125](https://doi.org/10.1017/S0003055422001125).
-
 [Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  2023. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *PS: Political Science \& Politics*, 56(2):195:200.](files/JudicialScandal.docx)
 
 - [Supplemental Information](files/JudicialScandal_SI.pdf)
+
+[Miller, David Ryan.  2023. "The President Will See Whom Now?  Presidential Engagement with Organized Interests." *American Political Science Review*, 117(3): 1019-1035.](files/WH_Engagement_DRM.pdf)
 
 [Butler, Daniel M. and David R. Miller.  2022.  "Does Lobbying Affect Bill Advancement?  Evidence from Three State Legislatures." *Political Research Quarterly*, 75(3):547-561.](files/LobbyingImpact.pdf)
 
@@ -53,7 +53,7 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 
 [Miller, David R. and Chris Piper.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments."](files/MillerPiper_Vacancies.pdf)
 
-[David R. Miller and Serena D. Smith.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Invited to revise & resubmit at Journal of Experimental Political Science*.](files/PoliticalTravel_v1.pdf)
+[Miller, David R. and Serena D. Smith.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Invited to revise & resubmit at Journal of Experimental Political Science*.](files/PoliticalTravel_v1.pdf)
 
 [Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."](files/preferential_abstention.pdf)
 
