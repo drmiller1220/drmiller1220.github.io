@@ -13,7 +13,8 @@
 
 <title>David Ryan Miller</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -31,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80184180-2"></script>
 <script>
@@ -67,6 +68,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -91,6 +93,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -148,11 +153,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -181,8 +190,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,16 +199,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -243,7 +245,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -297,7 +299,10 @@ $(document).ready(function () {
 <div id="instructor-of-record" class="section level4">
 <h4>Instructor of Record</h4>
 <ul>
-<li>Presidential Politics, Fall 2023</li>
+<li>Presidential Politics, Fall 2023 (<a
+href="files/POSC%20100%20Presidential%20Politics%20Syllabus.pdf">Most
+Recent Syllabus</a>; Course Evaluations for <a
+href="files/POSC100Fall23Evals.pdf">Fall 2023</a>)</li>
 </ul>
 </div>
 </div>
@@ -307,10 +312,37 @@ $(document).ready(function () {
 <h4>Instructor of Record</h4>
 <ul>
 <li>Advanced Research Methods (Independent Study), Spring 2023</li>
-<li>Interest Groups in American Politics, Fall 2022 (<a href="https://www.dropbox.com/scl/fi/pr5a4e4kpclyxxu1thscb/InterestGroups-Fall-2022.gdoc?dl=0&amp;rlkey=kg1gw76tqmi5vw2vt10dwaqbe">Most Recent Syllabus</a>; Course Evaluations for <a href="files/PSCI3050--Interest%20Groups--Fall%202022.pdf">Fall 2022</a>)</li>
-<li>Introduction to American Government, Fall 2021, Spring 2022, Fall 2022, Spring 2023 (<a href="https://www.dropbox.com/scl/fi/064iw7ewinuwbvw7ran2g/IntroAmericanSyllabus--Spring2023.gdoc?dl=0&amp;rlkey=mhl0qwyftpc23jeyxpxxnua99">Most Recent Syllabus</a>; Course Evaluations for <a href="files/PSCI1120--Intro%20American--Fall%202021.pdf">Fall 2021</a>, <a href="files/PSCI1120--Intro%20American--Spring%202022.pdf">Spring 2022</a>, <a href="files/PSCI1120--Intro%20American--Fall%202022.pdf">Fall 2022</a>, <a href="files/PSCI1120--Intro%20American--Spring%202023.pdf">Spring 2023</a>)</li>
-<li>Research Methods, Fall 2021, Spring 2022, Fall 2022, Spring 2023 (<a href="https://www.dropbox.com/scl/fi/kgdzckbxhmkl6az5rem7u/ResearchMethodsSyllabus--Spring2023.gdoc?dl=0&amp;rlkey=jmriksvgwpz8jpsawpulre8jz">Most Recent Syllabus</a>; Course Evaluations for <a href="files/PSCI3440--Research%20Methods--Fall%202021.pdf">Fall 2021</a>, <a href="files/PSCI3440--Research%20Methods--Spring%202022.pdf">Spring 2022</a>, <a href="files/PSCI3440--Research%20Methods--Fall%202022.pdf">Fall 2022</a>, <a href="files/PSCI3440--Research%20Methods--Spring%202023.pdf">Spring 2023</a>)</li>
-<li>State and Local Government, Spring 2022 (<a href="https://www.dropbox.com/scl/fi/1gbmg9k2fcbq4iz9ixd2i/StateLocalSyllabus-Spring2022.gdoc?dl=0&amp;rlkey=x6srx0h73fzgb9icmj2w4dz9f">Most Recent Syllabus</a>; Course Evaluations for <a href="files/PSCI3710--State%20and%20Local%20Govt--Spring%202022.pdf">Spring 2022</a>)</li>
+<li>Interest Groups in American Politics, Fall 2022 (<a
+href="https://www.dropbox.com/scl/fi/pr5a4e4kpclyxxu1thscb/InterestGroups-Fall-2022.gdoc?dl=0&amp;rlkey=kg1gw76tqmi5vw2vt10dwaqbe">Most
+Recent Syllabus</a>; Course Evaluations for <a
+href="files/PSCI3050--Interest%20Groups--Fall%202022.pdf">Fall
+2022</a>)</li>
+<li>Introduction to American Government, Fall 2021, Spring 2022, Fall
+2022, Spring 2023 (<a
+href="https://www.dropbox.com/scl/fi/064iw7ewinuwbvw7ran2g/IntroAmericanSyllabus--Spring2023.gdoc?dl=0&amp;rlkey=mhl0qwyftpc23jeyxpxxnua99">Most
+Recent Syllabus</a>; Course Evaluations for <a
+href="files/PSCI1120--Intro%20American--Fall%202021.pdf">Fall 2021</a>,
+<a href="files/PSCI1120--Intro%20American--Spring%202022.pdf">Spring
+2022</a>, <a
+href="files/PSCI1120--Intro%20American--Fall%202022.pdf">Fall 2022</a>,
+<a href="files/PSCI1120--Intro%20American--Spring%202023.pdf">Spring
+2023</a>)</li>
+<li>Research Methods, Fall 2021, Spring 2022, Fall 2022, Spring 2023 (<a
+href="https://www.dropbox.com/scl/fi/kgdzckbxhmkl6az5rem7u/ResearchMethodsSyllabus--Spring2023.gdoc?dl=0&amp;rlkey=jmriksvgwpz8jpsawpulre8jz">Most
+Recent Syllabus</a>; Course Evaluations for <a
+href="files/PSCI3440--Research%20Methods--Fall%202021.pdf">Fall
+2021</a>, <a
+href="files/PSCI3440--Research%20Methods--Spring%202022.pdf">Spring
+2022</a>, <a
+href="files/PSCI3440--Research%20Methods--Fall%202022.pdf">Fall
+2022</a>, <a
+href="files/PSCI3440--Research%20Methods--Spring%202023.pdf">Spring
+2023</a>)</li>
+<li>State and Local Government, Spring 2022 (<a
+href="https://www.dropbox.com/scl/fi/1gbmg9k2fcbq4iz9ixd2i/StateLocalSyllabus-Spring2022.gdoc?dl=0&amp;rlkey=x6srx0h73fzgb9icmj2w4dz9f">Most
+Recent Syllabus</a>; Course Evaluations for <a
+href="files/PSCI3710--State%20and%20Local%20Govt--Spring%202022.pdf">Spring
+2022</a>)</li>
 </ul>
 </div>
 </div>
@@ -319,16 +351,29 @@ $(document).ready(function () {
 <div id="instructor-of-record-2" class="section level4">
 <h4>Instructor of Record</h4>
 <ul>
-<li>Introduction to American Politics, Summer 2018 (<a href="https://docs.google.com/document/d/1nIefZRRGtpqLM3sBiq17lF_inTiOXEOsMabpUvZ_5oE/edit?usp=sharing">Syllabus</a>, <a href="files/Intro-to-American-Summer-2018.pdf">Course Evaluations</a>)</li>
+<li>Introduction to American Politics, Summer 2018 (<a
+href="https://docs.google.com/document/d/1nIefZRRGtpqLM3sBiq17lF_inTiOXEOsMabpUvZ_5oE/edit?usp=sharing">Syllabus</a>,
+<a href="files/Intro-to-American-Summer-2018.pdf">Course
+Evaluations</a>)</li>
 </ul>
 </div>
 <div id="teaching-assistant" class="section level4">
 <h4>Teaching Assistant</h4>
 <ul>
-<li>Introduction to American Politics, Fall 2016 &amp; Fall 2017 (Instructor: Andrew Reeves) (Course Evaluations, <a href="files/Intro-to-American-Fall-2016.pdf">Fall 2016</a> and <a href="files/Intro-to-American-Fall-2017.pdf">Fall 2017</a>)</li>
-<li>Public Policy Analysis: Assessment and Practical Wisdom, Spring 2017 (Instructor: Dan Butler) &amp; Spring 2018 (Instructor: Keith Schnakenberg) (Course Evaluations, <a href="files/Public-Policy-Spring-2017.pdf">Spring 2017</a> and <a href="files/Public-Policy-Spring-2018.pdf">Spring 2018</a>)</li>
-<li>Research Design and Methods, Spring 2019 (Instructor: Matt Gabel) (<a href="files/RDM-Spring-2019.pdf">Course Evaluations</a>)</li>
-<li>Quantitative Political Methodology (Undergraduate), Fall 2018 (Instructor: Betsy Sinclair) (<a href="files/QPM-Fall-2018.pdf">Course Evaluations</a>)</li>
+<li>Introduction to American Politics, Fall 2016 &amp; Fall 2017
+(Instructor: Andrew Reeves) (Course Evaluations, <a
+href="files/Intro-to-American-Fall-2016.pdf">Fall 2016</a> and <a
+href="files/Intro-to-American-Fall-2017.pdf">Fall 2017</a>)</li>
+<li>Public Policy Analysis: Assessment and Practical Wisdom, Spring 2017
+(Instructor: Dan Butler) &amp; Spring 2018 (Instructor: Keith
+Schnakenberg) (Course Evaluations, <a
+href="files/Public-Policy-Spring-2017.pdf">Spring 2017</a> and <a
+href="files/Public-Policy-Spring-2018.pdf">Spring 2018</a>)</li>
+<li>Research Design and Methods, Spring 2019 (Instructor: Matt Gabel)
+(<a href="files/RDM-Spring-2019.pdf">Course Evaluations</a>)</li>
+<li>Quantitative Political Methodology (Undergraduate), Fall 2018
+(Instructor: Betsy Sinclair) (<a href="files/QPM-Fall-2018.pdf">Course
+Evaluations</a>)</li>
 </ul>
 </div>
 </div>
@@ -337,14 +382,24 @@ $(document).ready(function () {
 <div id="teaching-assistant-1" class="section level4">
 <h4>Teaching Assistant</h4>
 <ul>
-<li>Introduction to American Politics, Fall 2013 &amp; Fall 2014 (Instructor: Maureen Moakley) (Course Evaluations, <a href="files/PSC113-Fall-2014.pdf">Fall 2014</a>; 2013 is unavailable)</li>
-<li>Introduction to International Politics, Spring 2014 &amp; Spring 2015 (Instructor: Marc Hutchison) (Course Evaluations, <a href="files/PSC116-Spring-2014.pdf">Spring 2014</a> and <a href="files/PSC116-Spring-2015.pdf">Spring 2015</a>)</li>
+<li>Introduction to American Politics, Fall 2013 &amp; Fall 2014
+(Instructor: Maureen Moakley) (Course Evaluations, <a
+href="files/PSC113-Fall-2014.pdf">Fall 2014</a>; 2013 is
+unavailable)</li>
+<li>Introduction to International Politics, Spring 2014 &amp; Spring
+2015 (Instructor: Marc Hutchison) (Course Evaluations, <a
+href="files/PSC116-Spring-2014.pdf">Spring 2014</a> and <a
+href="files/PSC116-Spring-2015.pdf">Spring 2015</a>)</li>
 </ul>
 </div>
 </div>
 <div id="teaching-demonstration" class="section level3">
 <h3>Teaching Demonstration</h3>
-<p><a href="https://www.youtube.com/watch?v=xL6DUg7cTC0&amp;t=2s">Click here</a> to watch an 18-minute short workshop on multilevel models I led for graduate students at Washington University in St. Louis in February 2020. Materials to follow along can be found <a href="files/TeachingDemoFiles.zip">here</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=xL6DUg7cTC0&amp;t=2s">Click
+here</a> to watch an 18-minute short workshop on multilevel models I led
+for graduate students at Washington University in St. Louis in February
+2020. Materials to follow along can be found <a
+href="files/TeachingDemoFiles.zip">here</a>.</p>
 </div>
 
 

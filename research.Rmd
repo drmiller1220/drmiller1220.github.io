@@ -11,9 +11,9 @@ output:
 
 ### Journal Articles
 
-[Miller, David R. and Serena D. Smith.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Conditionally accepted at Journal of Experimental Political Science*.](files/PoliticalTravel_JEPS_v2.pdf)
+[Miller, David R. and Serena D. Smith.  Forthcoming.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Journal of Experimental Political Science*.](files/PoliticalTravel_JEPS_v3.pdf)
 
-- [Supplemental Information](files/PoliticalTravel_JEPS_SI_v2.pdf)
+- [Supplemental Information](files/PoliticalTravel_JEPS_SI_v3.pdf)
 
 [Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  2023. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *PS: Political Science \& Politics*, 56(2):195:200.](files/JudicialScandal.docx)
 
