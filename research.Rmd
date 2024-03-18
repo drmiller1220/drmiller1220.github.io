@@ -10,7 +10,7 @@ output:
 &nbsp;  
 
 ### Journal Articles
-[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions." *Conditionally accepted at Journal of Law, Economics, and Organization.*](files/Lobbyist_Hiring.pdf)
+[Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  Forthcoming. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions." *Journal of Law, Economics, and Organization.*](files/Lobbyist_Hiring.pdf)
 
 [Miller, David R. and Serena D. Smith.  Forthcoming.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Journal of Experimental Political Science*.](files/PoliticalTravel_JEPS_v3.pdf)
 
