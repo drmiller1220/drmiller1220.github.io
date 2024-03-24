@@ -12,6 +12,8 @@ output:
 ### Journal Articles
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  Forthcoming. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions." *Journal of Law, Economics, and Organization.*](files/Lobbyist_Hiring.pdf)
 
+[Miller, David R. and Chris Piper.  Forthcoming.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments." *Presidential Studies Quarterly.*](files/MillerPiper_Vacancies.pdf)
+
 [Miller, David R. and Serena D. Smith.  Forthcoming.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Journal of Experimental Political Science*.](files/PoliticalTravel_JEPS_v3.pdf)
 
 - [Supplemental Information](files/PoliticalTravel_JEPS_SI_v3.pdf)
@@ -52,8 +54,6 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions.](files/Lobbyist_Discrimination.pdf)
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."](files/LEscores.pdf)
-
-[Miller, David R. and Chris Piper.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments." *Invited to revise and resubmit at Presidential Studies Quarterly.*](files/MillerPiper_Vacancies.pdf)
 
 [Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."](files/preferential_abstention.pdf)
 
