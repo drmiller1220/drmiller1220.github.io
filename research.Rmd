@@ -12,13 +12,13 @@ output:
 ### Journal Articles
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  Forthcoming. "Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions." *Journal of Law, Economics, and Organization.*](files/Lobbyist_Hiring.pdf)
 
-[Miller, David R. and Chris Piper.  Forthcoming.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments." *Presidential Studies Quarterly.*](files/MillerPiper_Vacancies.pdf)
-
 [Miller, David R. and Serena D. Smith.  Forthcoming.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Journal of Experimental Political Science*.](files/PoliticalTravel_JEPS_v3.pdf)
 
 - [Supplemental Information](files/PoliticalTravel_JEPS_SI_v3.pdf)
 
-[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  2023. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *PS: Political Science \& Politics*, 56(2):195:200.](files/JudicialScandal.docx)
+[Miller, David R. and Chris Piper.  2024.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments." *Presidential Studies Quarterly*, 52(4): 144-161](files/MillerPiper_Vacancies.pdf)
+
+[Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  2023. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *PS: Political Science \& Politics*, 56(2):195-200.](files/JudicialScandal.docx)
 
 - [Supplemental Information](files/JudicialScandal_SI.pdf)
 
@@ -60,6 +60,8 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 <!-- ### Works in Progress -->
 
 ### Public Scholarship
+
+["Democracy and Destinations: Navigating Political Consumerism in American Vacation Choices."  *CloudResearch*.  February 23, 2024.](https://www.cloudresearch.com/resources/blog/political-factors-affecting-travel/)
 
 ["Backslide on democracy and tourists will punish you." *3Streams*. September 5, 2023.](https://medium.com/3streams/water-slides-alpine-slides-democratic-backslides-74f41c872c8)
 
