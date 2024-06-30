@@ -11,7 +11,7 @@ output:
 
 <img src="images/DRM_STL.jpg" style="width:35%; border:0px solid; margin-left: 20px" align="right">
 
-I am an Assistant Professor of [Political Science at the University of California, Riverside](https://politicalscience.ucr.edu/).  Starting August 2024, I will be an Assistant Professor of Government at American University.
+Starting August 2024, I will be an Assistant Professor of Government at [American University](https://www.american.edu/spa/gov/).
 
 My research centers on American political institutions, with a focus on the presidency, organized interests, and legislative politics, and addresses substantive issues including representation and inequality in political voice.  My work applies quantitative approaches to analyze both observational "big data" and original surveys and experiments conducted with elite and mass public samples.  
 
@@ -19,6 +19,6 @@ My research has been published in academic journals such as *American Political 
 
 I am also a founding co-organizer of the [Junior Americanist Workshop Series (JAWS)](https://jawspolisci.network/), a virtual research seminar for early career American politics scholars created during the COVID-19 pandemic.
 
-Before coming to UCR, I served as an Assistant Professor of Political Science at [East Tennessee State University](https://www.etsu.edu/cas/polisci/) (Fall 2021-Spring 2023) and a Postdoctoral Research Scholar at [Vanderbilt University's Center for the Study of Democratic Institutions](https://www.vanderbilt.edu/csdi/) (Fall 2020-Spring 2021).  I received my PhD in [Political Science from Washington University in St. Louis](https://polisci.wustl.edu/) in May 2020.
+Previously, I served as an Assistant Professor of Political Science at [University of California, Riverside](https://politicalscience.ucr.edu/) (Fall 2023-Spring 2024) and [East Tennessee State University](https://www.etsu.edu/cas/polisci/) (Fall 2021-Spring 2023) and as a Postdoctoral Research Scholar at [Vanderbilt University's Center for the Study of Democratic Institutions](https://www.vanderbilt.edu/csdi/) (Fall 2020-Spring 2021).  I received my PhD in [Political Science from Washington University in St. Louis](https://polisci.wustl.edu/) in May 2020.
 
 Finally, I am a devoted Swiftie who has tweeted annual "Taylor Swift as American politics books" threads since 2020 ([2020](https://twitter.com/DrDRMiller/status/1293004228726751236?s=20), [2021](https://twitter.com/DrDRMiller/status/1424732716226985997?s=20), [2022](https://twitter.com/DrDRMiller/status/1582849110587355136?s=20), [2023](https://twitter.com/DrDRMiller/status/1685997864747425792?s=20)) and whose [The Eras Tour "Some Kind of Congressman" costume was retweeted by Taylor Nation.](https://twitter.com/taylornation13/status/1649923424112852993?s=20)

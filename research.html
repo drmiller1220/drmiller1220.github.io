@@ -13,7 +13,8 @@
 
 <title>David Ryan Miller</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -31,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80184180-2"></script>
 <script>
@@ -67,6 +68,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -91,6 +93,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -148,11 +153,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -181,8 +190,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,16 +199,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -243,7 +245,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -294,54 +296,146 @@ $(document).ready(function () {
 <p> </p>
 <div id="journal-articles" class="section level3">
 <h3>Journal Articles</h3>
-<p><a href="files/Lobbyist_Hiring.pdf">Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. Forthcoming. “Hiring Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions.” <em>Journal of Law, Economics, and Organization.</em></a></p>
-<p><a href="files/PoliticalTravel_JEPS_v3.pdf">Miller, David R. and Serena D. Smith. Forthcoming. “(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States.” <em>Journal of Experimental Political Science</em>.</a></p>
+<p><a href="files/Lobbyist_Hiring.pdf">Egerod, Benjamin C.K., Hans J.G.
+Hassell, Josh McCrain, and David R. Miller. Forthcoming. “Hiring
+Faithful Agents, Expertise, or Connections? A Conjoint Survey Experiment
+on Lobbyist Hiring Decisions.” <em>Journal of Law, Economics, and
+Organization.</em></a></p>
+<p><a href="files/PoliticalTravel_JEPS_v3.pdf">Miller, David R. and
+Serena D. Smith. Forthcoming. “(Small D-Democratic) Vacation, All I Ever
+Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the
+American States.” <em>Journal of Experimental Political
+Science</em>.</a></p>
 <ul>
-<li><a href="files/PoliticalTravel_JEPS_SI_v3.pdf">Supplemental Information</a></li>
+<li><a href="files/PoliticalTravel_JEPS_SI_v3.pdf">Supplemental
+Information</a></li>
 </ul>
-<p><a href="files/MillerPiper_Vacancies.pdf">Miller, David R. and Chris Piper. 2024. “Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments.” <em>Presidential Studies Quarterly</em>, 52(4): 144-161</a></p>
-<p><a href="files/JudicialScandal.docx">Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller. 2023. “Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support.” <em>PS: Political Science &amp; Politics</em>, 56(2):195-200.</a></p>
+<p><a href="files/MillerPiper_Vacancies.pdf">Miller, David R. and Chris
+Piper. 2024. “Acting(s) Without Consequence: The (Lack of) Public Costs
+for Vacancy Appointments.” <em>Presidential Studies Quarterly</em>,
+52(4): 144-161</a></p>
+<p><a href="files/JudicialScandal.docx">Boston, Joshua, Benjamin Kassow,
+Ali Masood, and David R. Miller. 2023. “Your Honor’s Misdeeds: The
+Consequences of Judicial Scandal on Specific and Diffuse Support.”
+<em>PS: Political Science &amp; Politics</em>, 56(2):195-200.</a></p>
 <ul>
-<li><a href="files/JudicialScandal_SI.pdf">Supplemental Information</a></li>
+<li><a href="files/JudicialScandal_SI.pdf">Supplemental
+Information</a></li>
 </ul>
-<p><a href="files/WH_Engagement_DRM.pdf">Miller, David Ryan. 2023. “The President Will See Whom Now? Presidential Engagement with Organized Interests.” <em>American Political Science Review</em>, 117(3): 1019-1035.</a></p>
-<p><a href="files/LobbyingImpact.pdf">Butler, Daniel M. and David R. Miller. 2022. “Does Lobbying Affect Bill Advancement? Evidence from Three State Legislatures.” <em>Political Research Quarterly</em>, 75(3):547-561.</a></p>
+<p><a href="files/WH_Engagement_DRM.pdf">Miller, David Ryan. 2023. “The
+President Will See Whom Now? Presidential Engagement with Organized
+Interests.” <em>American Political Science Review</em>, 117(3):
+1019-1035.</a></p>
+<p><a href="files/LobbyingImpact.pdf">Butler, Daniel M. and David R.
+Miller. 2022. “Does Lobbying Affect Bill Advancement? Evidence from
+Three State Legislatures.” <em>Political Research Quarterly</em>,
+75(3):547-561.</a></p>
 <ul>
-<li><a href="files/LobbyingImpactSI.pdf">Supplemental Information</a></li>
+<li><a href="files/LobbyingImpactSI.pdf">Supplemental
+Information</a></li>
 </ul>
-<p><a href="files/JAWS%20PS%20Submission.pdf">Ladam, Christina, Austin Bussing, Alexander C. Furnas, Josh McCrain, David R. Miller, and Rachel Porter. 2022. “The Junior Americanist Workshop Series (JAWS).” <em>PS: Political Science &amp; Politics</em>, 55(3):552-553.</a></p>
-<p><a href="files/DRM_Targeting_final.pdf">Miller, David R. 2022. “On Whose Door to Knock? Lobbyists’ Strategic Pursuit of Access to Members of Congress.” <em>Legislative Studies Quarterly</em>, 47(1), 157-192.</a></p>
-<p><a href="files/main-rr.pdf">Miller, David R. and Andrew Reeves. 2022. “Pass the Buck or the Buck Stops Here? The Effectiveness of Claiming and Deflecting Blame by Elected Executives.” <em>Journal of Public Policy</em>, 42(1), 63-91.</a></p>
-<p><a href="files/AccessApproaches.pdf">Miller, David R. 2021 “Empirical Approaches to the Study of Access.” <em>Interest Groups &amp; Advocacy</em>, 10(3), 286-302.</a></p>
-<p><a href="files/PRQ_Voting.pdf">Stein, Robert M., Christopher Mann, Charles Stewart III, <span class="math inline">\(\ldots\)</span>, David Miller, <span class="math inline">\(\ldots\)</span>, et al. 2020. “Waiting to Vote in the 2016 Presidential Election: Evidence from a Multi-county Study.” <em>Political Research Quarterly</em>, 73(2), 439-453.</a></p>
-<p><a href="files/Perspectives_Voting.pdf">Mann, Christopher B., Gayle A. Alberda, Nathaniel A. Birkhead, <span class="math inline">\(\ldots\)</span>, David Miller, <span class="math inline">\(\ldots\)</span>, et al. 2018. “Pedagogical Value of Polling Place Observation By Students.” <em>PS: Political Science &amp; Politics</em>, 51(4), 831-837.</a></p>
-<p><a href="files/Commissions.pdf">Miller, David R. and Andrew Reeves. 2017. “Attitudes toward Delegation to Presidential Commissions.” <em>Presidential Studies Quarterly</em>, 47(3), 495-516.</a></p>
+<p><a href="files/JAWS%20PS%20Submission.pdf">Ladam, Christina, Austin
+Bussing, Alexander C. Furnas, Josh McCrain, David R. Miller, and Rachel
+Porter. 2022. “The Junior Americanist Workshop Series (JAWS).” <em>PS:
+Political Science &amp; Politics</em>, 55(3):552-553.</a></p>
+<p><a href="files/DRM_Targeting_final.pdf">Miller, David R. 2022. “On
+Whose Door to Knock? Lobbyists’ Strategic Pursuit of Access to Members
+of Congress.” <em>Legislative Studies Quarterly</em>, 47(1),
+157-192.</a></p>
+<p><a href="files/main-rr.pdf">Miller, David R. and Andrew Reeves. 2022.
+“Pass the Buck or the Buck Stops Here? The Effectiveness of Claiming and
+Deflecting Blame by Elected Executives.” <em>Journal of Public
+Policy</em>, 42(1), 63-91.</a></p>
+<p><a href="files/AccessApproaches.pdf">Miller, David R. 2021 “Empirical
+Approaches to the Study of Access.” <em>Interest Groups &amp;
+Advocacy</em>, 10(3), 286-302.</a></p>
+<p><a href="files/PRQ_Voting.pdf">Stein, Robert M., Christopher Mann,
+Charles Stewart III, <span class="math inline">\(\ldots\)</span>, David
+Miller, <span class="math inline">\(\ldots\)</span>, et al. 2020.
+“Waiting to Vote in the 2016 Presidential Election: Evidence from a
+Multi-county Study.” <em>Political Research Quarterly</em>, 73(2),
+439-453.</a></p>
+<p><a href="files/Perspectives_Voting.pdf">Mann, Christopher B., Gayle
+A. Alberda, Nathaniel A. Birkhead, <span
+class="math inline">\(\ldots\)</span>, David Miller, <span
+class="math inline">\(\ldots\)</span>, et al. 2018. “Pedagogical Value
+of Polling Place Observation By Students.” <em>PS: Political Science
+&amp; Politics</em>, 51(4), 831-837.</a></p>
+<p><a href="files/Commissions.pdf">Miller, David R. and Andrew Reeves.
+2017. “Attitudes toward Delegation to Presidential Commissions.”
+<em>Presidential Studies Quarterly</em>, 47(3), 495-516.</a></p>
 <ul>
-<li><a href="files/CommissionsAppendix.docx">Supplemental Information</a></li>
+<li><a href="files/CommissionsAppendix.docx">Supplemental
+Information</a></li>
 </ul>
 </div>
 <div id="other-academic-publications" class="section level3">
 <h3>Other Academic Publications</h3>
-<p>Stein, Robert M., Christopher Mann, Charles Stewart III, <span class="math inline">\(\ldots\)</span>, David Miller, <span class="math inline">\(\ldots\)</span>, et al. 2020. “Polling Place Quality and Access.” In <em>The Future of Election Administration</em>, Mitchell Brown, Kathleen Hale, and Bridgett A. King, Eds. Palgrave Macmillan, 83-100.</p>
-<p><a href="http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml">Reeves, Andrew, David R. Miller, and Bryant Moy. 2018. “U.S. Presidential Campaigns and Their Impact.” In <em>Oxford Bibliographies in Political Science</em>.</a></p>
+<p>Stein, Robert M., Christopher Mann, Charles Stewart III, <span
+class="math inline">\(\ldots\)</span>, David Miller, <span
+class="math inline">\(\ldots\)</span>, et al. 2020. “Polling Place
+Quality and Access.” In <em>The Future of Election Administration</em>,
+Mitchell Brown, Kathleen Hale, and Bridgett A. King, Eds. Palgrave
+Macmillan, 83-100.</p>
+<p><a
+href="http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml">Reeves,
+Andrew, David R. Miller, and Bryant Moy. 2018. “U.S. Presidential
+Campaigns and Their Impact.” In <em>Oxford Bibliographies in Political
+Science</em>.</a></p>
 </div>
 <div id="working-papers" class="section level3">
 <h3>Working Papers</h3>
-<p><a href="files/Lobbyist_Discrimination.pdf">Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions.</a></p>
-<p><a href="files/LEscores.pdf">Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. “Using Expert Evaluation to Scale Interest Group Ideology.”</a></p>
-<p><a href="files/preferential_abstention.pdf">Miller, David R. and Jeffrey Ziegler. “Preferential Abstention in Conjoint Experiments.” <em>Invited to revise and resubmit at Research &amp; Politics.</em></a></p>
+<p><a href="files/Lobbyist_Discrimination.pdf">Egerod, Benjamin C.K.,
+Hans J.G. Hassell, Josh McCrain, and David R. Miller. “Lobbying Against
+Discrimination: Racial and Gender Discrimination in Lobbyist Hiring
+Decisions.</a></p>
+<p><a href="files/LEscores.pdf">Egerod, Benjamin C.K., Hans J.G.
+Hassell, Josh McCrain, and David R. Miller. “Using Expert Evaluation to
+Scale Interest Group Ideology.”</a></p>
+<p><a href="files/preferential_abstention.pdf">Miller, David R. and
+Jeffrey Ziegler. “Preferential Abstention in Conjoint Experiments.”
+<em>Invited to revise and resubmit at Research &amp;
+Politics.</em></a></p>
 <!-- ### Works in Progress -->
 </div>
 <div id="public-scholarship" class="section level3">
 <h3>Public Scholarship</h3>
-<p><a href="https://www.cloudresearch.com/resources/blog/political-factors-affecting-travel/">“Democracy and Destinations: Navigating Political Consumerism in American Vacation Choices.” <em>CloudResearch</em>. February 23, 2024.</a></p>
-<p><a href="https://medium.com/3streams/water-slides-alpine-slides-democratic-backslides-74f41c872c8">“Backslide on democracy and tourists will punish you.” <em>3Streams</em>. September 5, 2023.</a></p>
-<p><a href="https://theconversation.com/judging-the-judges-scandals-have-the-potential-to-affect-the-legitimacy-of-judges-and-possibly-the-federal-judiciary-too-205817">“Judging the judges: Scandals have the potential to affect the legitimacy of judges—and possibly the federal judiciary, too” (with Joshua Boston, Benjamin Kassow, and Ali Masood). <em>The Conversation</em>. June 2, 2023</a></p>
-<p><a href="https://theconversation.com/bidens-supreme-court-commission-probably-wont-sway-public-opinion-159658">“Biden’s Supreme Court commission probably won’t sway public opinion” (with Andrew Reeves). <em>The Conversation</em>. June 16, 2021</a></p>
-<p><a href="https://medium.com/3streams/new-evidence-that-lobbying-affects-legislative-outcomes-c350b5ea5475">“New evidence that lobbying affects legislative outcomes.” <em>3Streams</em>. May 30, 2021</a></p>
-<p><a href="https://medium.com/3streams/who-do-lobbyists-lobby-in-congress-af0d53315ee8">“Here’s the evidence lobbyists are trying to persuade your member of Congress.” <em>3Streams</em>. February 2, 2021</a></p>
-<p><a href="https://www.washingtonpost.com/politics/2020/03/26/if-trump-took-responsibility-coronavirus-missteps-it-might-actually-help-him">“If Trump Took Responsibility for Coronavirus Missteps, It Might Actually Help Him” (with Andrew Reeves). <em>The Washington Post</em>. March 26, 2020.</a></p>
-<p><a href="https://connect.apsanet.org/raisethevote/2020/01/17/late-to-the-party-nomination-how-primary-election-timing-disadvantages-missouri-voters/">“Late to the Party (Nomination): How Primary Election Timing Disadvantages Missouri Voters.” In APSA’s <em>RAISE the Vote Campaign</em>. January 17, 2020.</a></p>
+<p><a
+href="https://www.cloudresearch.com/resources/blog/political-factors-affecting-travel/">“Democracy
+and Destinations: Navigating Political Consumerism in American Vacation
+Choices.” <em>CloudResearch</em>. February 23, 2024.</a></p>
+<p><a
+href="https://medium.com/3streams/water-slides-alpine-slides-democratic-backslides-74f41c872c8">“Backslide
+on democracy and tourists will punish you.” <em>3Streams</em>. September
+5, 2023.</a></p>
+<p><a
+href="https://theconversation.com/judging-the-judges-scandals-have-the-potential-to-affect-the-legitimacy-of-judges-and-possibly-the-federal-judiciary-too-205817">“Judging
+the judges: Scandals have the potential to affect the legitimacy of
+judges—and possibly the federal judiciary, too” (with Joshua Boston,
+Benjamin Kassow, and Ali Masood). <em>The Conversation</em>. June 2,
+2023</a></p>
+<p><a
+href="https://theconversation.com/bidens-supreme-court-commission-probably-wont-sway-public-opinion-159658">“Biden’s
+Supreme Court commission probably won’t sway public opinion” (with
+Andrew Reeves). <em>The Conversation</em>. June 16, 2021</a></p>
+<p><a
+href="https://medium.com/3streams/new-evidence-that-lobbying-affects-legislative-outcomes-c350b5ea5475">“New
+evidence that lobbying affects legislative outcomes.” <em>3Streams</em>.
+May 30, 2021</a></p>
+<p><a
+href="https://medium.com/3streams/who-do-lobbyists-lobby-in-congress-af0d53315ee8">“Here’s
+the evidence lobbyists are trying to persuade your member of Congress.”
+<em>3Streams</em>. February 2, 2021</a></p>
+<p><a
+href="https://www.washingtonpost.com/politics/2020/03/26/if-trump-took-responsibility-coronavirus-missteps-it-might-actually-help-him">“If
+Trump Took Responsibility for Coronavirus Missteps, It Might Actually
+Help Him” (with Andrew Reeves). <em>The Washington Post</em>. March 26,
+2020.</a></p>
+<p><a
+href="https://connect.apsanet.org/raisethevote/2020/01/17/late-to-the-party-nomination-how-primary-election-timing-disadvantages-missouri-voters/">“Late
+to the Party (Nomination): How Primary Election Timing Disadvantages
+Missouri Voters.” In APSA’s <em>RAISE the Vote Campaign</em>. January
+17, 2020.</a></p>
 </div>
 
 
