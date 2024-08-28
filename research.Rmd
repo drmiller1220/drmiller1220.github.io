@@ -16,6 +16,8 @@ output:
 
 - [Supplemental Information](files/PoliticalTravel_JEPS_SI_v3.pdf)
 
+[Miller, David R. and Jeffrey Ziegler.  Forthcoming.  "Preferential Abstention in Conjoint Experiments."  *Research & Politics.*](files/preferential_abstention.pdf) 
+
 [Miller, David R. and Chris Piper.  2024.  "Acting(s) Without Consequence: The (Lack of) Public Costs for Vacancy Appointments." *Presidential Studies Quarterly*, 52(4): 144-161](files/MillerPiper_Vacancies.pdf)
 
 [Boston, Joshua, Benjamin Kassow, Ali Masood, and David R. Miller.  2023. "Your Honor’s Misdeeds: The Consequences of Judicial Scandal on Specific and Diffuse Support."  *PS: Political Science \& Politics*, 56(2):195-200.](files/JudicialScandal.docx)
@@ -54,8 +56,6 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions. *Invited to revise and resubmit at Legislative Studies Quarterly.*](files/Lobbyist_Discrimination.pdf)
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."](files/LEscores.pdf)
-
-[Miller, David R. and Jeffrey Ziegler.  "Preferential Abstention in Conjoint Experiments."  *Invited to revise and resubmit at Research & Politics.*](files/preferential_abstention.pdf)  
 
 <!-- ### Works in Progress -->
 
