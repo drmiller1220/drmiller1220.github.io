@@ -13,8 +13,7 @@
 
 <title>David Ryan Miller</title>
 
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +31,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80184180-2"></script>
 <script>
@@ -68,7 +67,6 @@ if (window.hljs) {
 
 
 
-
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -93,9 +91,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -153,15 +148,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -190,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -199,9 +190,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -245,7 +243,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -295,53 +293,11 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <p><img src="images/DRM_STL.jpg" style="width:35%; border:0px solid; margin-left: 20px" align="right"></p>
-<p>I am an Assistant Professor of Government at <a
-href="https://www.american.edu/spa/gov/">American University</a>. My
-research centers on American political institutions, with a focus on the
-presidency, organized interests, and legislative politics, and addresses
-substantive issues including representation and inequality in political
-voice. My work applies quantitative approaches to analyze both
-observational “big data” and original surveys and experiments conducted
-with elite and mass public samples.</p>
-<p>My research has been published in academic journals such as
-<em>American Political Science Review</em>, <em>Journal of Experimental
-Political Science</em>, <em>Journal of Law, Economics, and
-Organization</em>, <em>Journal of Public Policy</em>, <em>Legislative
-Studies Quarterly</em>, <em>Political Research Quarterly</em>,
-<em>Presidential Studies Quarterly</em>, <em>PS: Political Science &amp;
-Politics</em>, and <em>Research &amp; Politics</em>, and my dissertation
-received the 2021 George C. Edwards III Dissertation Award for the best
-dissertation on executive politics completed and accepted in 2019 or
-2020.</p>
-<p>I am also a founding co-organizer of the <a
-href="https://jawspolisci.network/">Junior Americanist Workshop Series
-(JAWS)</a>, a virtual research seminar for early career American
-politics scholars created during the COVID-19 pandemic.</p>
-<p>Previously, I served as an Assistant Professor of Political Science
-at <a href="https://politicalscience.ucr.edu/">University of California,
-Riverside</a> (Fall 2023-Spring 2024) and <a
-href="https://www.etsu.edu/cas/polisci/">East Tennessee State
-University</a> (Fall 2021-Spring 2023) and as a Postdoctoral Research
-Scholar at <a href="https://www.vanderbilt.edu/csdi/">Vanderbilt
-University’s Center for the Study of Democratic Institutions</a> (Fall
-2020-Spring 2021). I received my PhD in <a
-href="https://polisci.wustl.edu/">Political Science from Washington
-University in St. Louis</a> in May 2020.</p>
-<p>Finally, I am a devoted Swiftie who has tweeted annual “Taylor Swift
-as American politics books” threads since 2020 (<a
-href="https://twitter.com/DrDRMiller/status/1293004228726751236?s=20">2020</a>,
-<a
-href="https://twitter.com/DrDRMiller/status/1424732716226985997?s=20">2021</a>,
-<a
-href="https://twitter.com/DrDRMiller/status/1582849110587355136?s=20">2022</a>,
-<a
-href="https://twitter.com/DrDRMiller/status/1685997864747425792?s=20">2023</a>,
-<a
-href="https://twitter.com/DrDRMiller/status/1823350789538005004">2024</a>)
-and whose <a
-href="https://twitter.com/taylornation13/status/1649923424112852993?s=20">The
-Eras Tour “Some Kind of Congressman” costume was retweeted by Taylor
-Nation.</a></p>
+<p>I am an Assistant Professor of Government at <a href="https://www.american.edu/spa/gov/">American University</a>. My research centers on American political institutions, with a focus on the presidency, organized interests, and legislative politics, and addresses substantive issues including representation and inequality in political voice. My work applies quantitative approaches to analyze both observational “big data” and original surveys and experiments conducted with elite and mass public samples.</p>
+<p>My research has been published in academic journals such as <em>American Political Science Review</em>, <em>Journal of Experimental Political Science</em>, <em>Journal of Law, Economics, and Organization</em>, <em>Journal of Public Policy</em>, <em>Legislative Studies Quarterly</em>, <em>Political Research Quarterly</em>, <em>Presidential Studies Quarterly</em>, <em>PS: Political Science &amp; Politics</em>, and <em>Research &amp; Politics</em>, and my dissertation received the 2021 George C. Edwards III Dissertation Award for the best dissertation on executive politics completed and accepted in 2019 or 2020.</p>
+<p>I am also a founding co-organizer of the <a href="https://jawspolisci.network/">Junior Americanist Workshop Series (JAWS)</a>, a virtual research seminar for early career American politics scholars created during the COVID-19 pandemic.</p>
+<p>Previously, I served as an Assistant Professor of Political Science at <a href="https://politicalscience.ucr.edu/">University of California, Riverside</a> (Fall 2023-Spring 2024) and <a href="https://www.etsu.edu/cas/polisci/">East Tennessee State University</a> (Fall 2021-Spring 2023) and as a Postdoctoral Research Scholar at <a href="https://www.vanderbilt.edu/csdi/">Vanderbilt University’s Center for the Study of Democratic Institutions</a> (Fall 2020-Spring 2021). I received my PhD in <a href="https://polisci.wustl.edu/">Political Science from Washington University in St. Louis</a> in May 2020.</p>
+<p>Finally, I am a devoted Swiftie who has tweeted annual “Taylor Swift as American politics books” threads since 2020 (<a href="https://twitter.com/DrDRMiller/status/1293004228726751236?s=20">2020</a>, <a href="https://twitter.com/DrDRMiller/status/1424732716226985997?s=20">2021</a>, <a href="https://twitter.com/DrDRMiller/status/1582849110587355136?s=20">2022</a>, <a href="https://twitter.com/DrDRMiller/status/1685997864747425792?s=20">2023</a>, <a href="https://twitter.com/DrDRMiller/status/1823350789538005004">2024</a>) and whose <a href="https://twitter.com/taylornation13/status/1649923424112852993?s=20">The Eras Tour “Some Kind of Congressman” costume was retweeted by Taylor Nation.</a></p>
 
 
 
