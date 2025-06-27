@@ -57,6 +57,8 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 [Reeves, Andrew, David R. Miller, and Bryant Moy.  2018.  "U.S. Presidential Campaigns and Their Impact."  In *Oxford Bibliographies in Political Science*.](http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml)
 
 ### Working Papers
+[Bell, Elizabeth, David Miller, and Wesley Wehde.  "Burden by Design?  Proceduralism, Bureaucratic Errors, and the Burden Tolerance of Bureaucrats."](files/BurdensProceduralism.pdf)
+
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."](files/LEscores.pdf)
 
 [Heersink, Boris and David R. Miller.  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."](files/Beaches or Boarding.pdf)
