@@ -12,9 +12,9 @@ output:
 ### Journal Articles
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. Forthcoming.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions. *Legislative Studies Quarterly.*](files/Lobbyist_Discrimination.pdf)
 
-[Miller, David Ryan and Daniel M. Butler.  Forthcoming.  "The Implications of *Loper Bright* for Bureaucratic Human Capital." *Administration & Society*.](files/Bureaucratic Capacity RR v2.pdf)
-
 [Miller, David R., Joshua McCrain, Hans J.G. Hassell, and Benjamin C.K Egerod.  Forthcoming. "Partisanship, Expertise, or Connections? A Conjoint Survey Experiment on Lobbyist Hiring Decisions." *Journal of Law, Economics, and Organization.*](files/Lobbyist_Hiring.pdf)
+
+[Miller, David Ryan and Daniel M. Butler.  2025  "The Implications of *Loper Bright* for Bureaucratic Human Capital." *Administration & Society*, 57(6):893-912](files/Bureaucratic Capacity RR v2.pdf)
 
 [Miller, David R. and Serena D. Smith.  2025.  "(Small D-Democratic) Vacation, All I Ever Wanted?: The Effect of Democratic Backsliding on Leisure Travel in the American States."  *Journal of Experimental Political Science*, 12(1):99-109.](files/PoliticalTravel_JEPS_v3.pdf)
 
