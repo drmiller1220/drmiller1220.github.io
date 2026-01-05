@@ -15,7 +15,7 @@ output:
 
 - American Political Institutions, Spring 2025 ([Most Recent Syllabus](files/GOVT 710 American Political Institutions--Spring 2025.pdf))
 - Introduction to Political Research, Fall 2024, Spring 2025, Spring 2026 ([Most Recent Syllabus](files/ResearchMethodsSyllabus--Spring2025.pdf); Course Evaluations for [Fall 2024](files/SET_F2024_GOVT310.pdf), [Spring 2025](files/SET_S2025_GOVT310.pdf))
-- The Presidency, Fall 2025, Spring 2026 ([Most Recent Syllabus](files/Presidency--Fall2025.pdf))
+- The Presidency, Fall 2025, Spring 2026 ([Most Recent Syllabus](files/Presidency--Fall2025.pdf); Course Evaluations for [Fall 2025](files/SET_F2025_GOVT320.pdf))
 
 ### University of California, Riverside
 
