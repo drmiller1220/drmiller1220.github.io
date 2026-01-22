@@ -10,6 +10,8 @@ output:
 &nbsp;  
 
 ### Journal Articles
+[Heersink, Boris and David R. Miller.  Forthcoming.  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."  *American Politics Research*.](files/Beaches or Boarding.pdf)
+
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. 2025.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions. *Legislative Studies Quarterly*, 50(3): e12490](files/Lobbyist_Discrimination.pdf)
 
 [Miller, David Ryan and Daniel M. Butler.  2025  "The Implications of *Loper Bright* for Bureaucratic Human Capital." *Administration & Society*, 57(6):893-912](files/Bureaucratic Capacity RR v2.pdf)
@@ -63,9 +65,7 @@ Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  "The Prose
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."](files/LEscores.pdf)
 
-[Heersink, Boris and David R. Miller.  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."  *Invited to revise and resubmit at American Politics Research*.](files/Beaches or Boarding.pdf)
-
-[Miller, David R. and Daniel M. Butler.  "Limits on Terms, Limits on Control: The Effect of Chief Executive Term Limits on Bureaucratic Responsiveness." *Invited to revise and resubmit at Policy Studies Journal*.](files/ExecTermLimits.pdf)
+[Miller, David R. and Daniel M. Butler.  "Limits on Terms, Limits on Control: The Effect of Chief Executive Term Limits on Bureaucratic Responsiveness." *Invited to revise and resubmit at Policy Studies Journal*.](files/TermLimitsDeference.pdf)
 
 [Miller, David Ryan, Benjamin S. Noble, and Erin L. Rosstier.  "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda."](files/Presidents_PressBriefings.pdf)
 
