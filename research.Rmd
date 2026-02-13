@@ -69,7 +69,7 @@ Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  "The Prose
 
 [Miller, David Ryan, Benjamin S. Noble, and Erin L. Rosstier.  "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda."](files/Presidents_PressBriefings.pdf)
 
-Miller, David R. and Andrew Reeves.  "Blaming Bureaucrats: How Political Leadership Shapes Bureaucratic Trust and Engagement."
+[Miller, David R. and Andrew Reeves.  "Blaming Bureaucrats: How Political Leadership Shapes Civil Servants' Trust and Engagement."](files/BureaucratBlame.pdf)
 
 <!-- ### Works in Progress -->
 
