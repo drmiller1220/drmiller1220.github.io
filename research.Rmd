@@ -54,12 +54,14 @@ output:
 
 ### Other Academic Publications
 
+[Miller, David R.  Forthcoming.  ``*Scandal: Why Politicians Survive Controversy in a Partisan Era*.  By Brandon Rottinghaus.  New York, NY: Columbia University Press, 2026.  213 pp.''  *Presidential Studies Quarterly*.](files/Scandal_PSQReview.docx)
+
 Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Polling Place Quality and Access." In *The Future of Election Administration*, Mitchell Brown, Kathleen Hale, and Bridgett A. King, Eds.  Palgrave Macmillan, 83-100.
 
 [Reeves, Andrew, David R. Miller, and Bryant Moy.  2018.  "U.S. Presidential Campaigns and Their Impact."  In *Oxford Bibliographies in Political Science*.](http://www.oxfordbibliographies.com/view/document/obo-9780199756223/obo-9780199756223-0156.xml)
 
 ### Working Papers
-[Bell, Elizabeth, David Miller, and Wesley Wehde.  "Burden by Design?  Proceduralism, Bureaucratic Errors, and the Burden Tolerance of Bureaucrats."](files/BurdensProceduralism.pdf)
+[Bell, Elizabeth, David Miller, and Wesley Wehde.  "Burden by Design?  Proceduralism, Bureaucratic Errors, and the Burden Tolerance of Bureaucrats."  *Invitation to revise and resubmit at Public Administration*.](files/BurdensProceduralism.pdf)
 
 Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  "The Prosecutor Paradox: Understanding the Public's Low Knowledge About Chief Local Prosecutors."  *Invited to revise and resubmit at Journal of Law and Courts*.
 
