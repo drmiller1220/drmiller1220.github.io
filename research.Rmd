@@ -54,7 +54,7 @@ output:
 
 ### Other Academic Publications
 
-[Miller, David R.  Forthcoming.  ``*Scandal: Why Politicians Survive Controversy in a Partisan Era*.  By Brandon Rottinghaus.  New York, NY: Columbia University Press, 2026.  213 pp.''  *Presidential Studies Quarterly*.](files/Scandal_PSQReview.docx)
+[Miller, David R.  2026.  "*Scandal: Why Politicians Survive Controversy in a Partisan Era*.  By Brandon Rottinghaus.  New York, NY: Columbia University Press, 2026.  213 pp."  *Presidential Studies Quarterly*, 56(1): e70042.](files/Scandal_PSQReview.docx)
 
 Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller, $\ldots$, et al. 2020. "Polling Place Quality and Access." In *The Future of Election Administration*, Mitchell Brown, Kathleen Hale, and Bridgett A. King, Eds.  Palgrave Macmillan, 83-100.
 
