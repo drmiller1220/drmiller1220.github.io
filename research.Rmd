@@ -10,6 +10,8 @@ output:
 &nbsp;  
 
 ### Journal Articles
+Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  Forthcoming.  "The Prosecutor Paradox: Understanding the Public's Low Knowledge About Chief Local Prosecutors."  *Journal of Law and Courts*.
+
 [Heersink, Boris and David R. Miller.  Forthcoming.  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."  *American Politics Research*.](files/Beaches or Boarding.pdf)
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. 2025.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions. *Legislative Studies Quarterly*, 50(3): e12490](files/Lobbyist_Discrimination.pdf)
@@ -63,13 +65,11 @@ Stein, Robert M., Christopher Mann, Charles Stewart III, $\ldots$, David Miller,
 ### Working Papers
 [Bell, Elizabeth, David Miller, and Wesley Wehde.  "Burden by Design?  Proceduralism, Bureaucratic Errors, and the Burden Tolerance of Bureaucrats."  *Invitation to revise and resubmit at Public Administration*.](files/BurdensProceduralism.pdf)
 
-Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  "The Prosecutor Paradox: Understanding the Public's Low Knowledge About Chief Local Prosecutors."  *Invited to revise and resubmit at Journal of Law and Courts*.
-
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller.   "Using Expert Evaluation to Scale Interest Group Ideology."](files/LEscores.pdf)
 
 [Miller, David R. and Daniel M. Butler.  "Limits on Terms, Limits on Control: The Effect of Chief Executive Term Limits on Bureaucratic Responsiveness." *Invited to revise and resubmit at Policy Studies Journal*.](files/TermLimitsDeference.pdf)
 
-[Miller, David Ryan, Benjamin S. Noble, and Erin L. Rosstier.  "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda."](files/Presidents_PressBriefings.pdf)
+[Miller, David Ryan, Benjamin S. Noble, and Erin L. Rosstier.  "From the Briefing Room to Your Living Room: How the President Sets the Media's Agenda."  *Invited to revise and resubmit at American Journal of Political Science*.](files/Presidents_PressBriefings.pdf)
 
 [Miller, David R. and Andrew Reeves.  "Blaming Bureaucrats: How Political Leadership Shapes Civil Servants' Trust and Engagement."](files/BureaucratBlame.pdf)
 
