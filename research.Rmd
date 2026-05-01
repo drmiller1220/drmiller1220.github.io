@@ -10,7 +10,7 @@ output:
 &nbsp;  
 
 ### Journal Articles
-Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  Forthcoming.  "The Prosecutor Paradox: Understanding the Public's Low Knowledge About Chief Local Prosecutors."  *Journal of Law and Courts*.
+[Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  Forthcoming.  "The Prosecutor Paradox: Understanding the Public's Low Knowledge About Chief Local Prosecutors."  *Journal of Law and Courts*.](files/prosecutorparadox.pdf)
 
 [Heersink, Boris and David R. Miller.  Forthcoming.  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."  *American Politics Research*.](files/Beaches or Boarding.pdf)
 
