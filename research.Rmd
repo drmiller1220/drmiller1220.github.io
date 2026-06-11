@@ -12,9 +12,9 @@ output:
 ### Journal Articles
 [Boston, Joshua, Anna Gunderson, David R. Miller, and Kirsten Widner.  Forthcoming.  "The Prosecutor Paradox: Understanding the Public's Low Knowledge About Chief Local Prosecutors."  *Journal of Law and Courts*.](files/prosecutorparadox.pdf)
 
-[Heersink, Boris and David R. Miller.  Forthcoming.  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."  *American Politics Research*.](files/Beaches or Boarding.pdf)
-
 [Miller, David R. and Daniel M. Butler.  Forthcoming.  "Limits on Terms, Limits on Control: The Effect of Chief Executive Term Limits on Bureaucratic Responsiveness." *Policy Studies Journal*.](files/TermLimitsDeference.pdf)
+
+[Heersink, Boris and David R. Miller.  2026  "Beaches or Boarding?: Shark Attacks, Tourism, and the 1916 Presidential Election."  *American Politics Research*, 54(4): 444-450.](files/Beaches or Boarding.pdf)
 
 [Egerod, Benjamin C.K., Hans J.G. Hassell, Josh McCrain, and David R. Miller. 2025.  "Lobbying Against Discrimination: Racial and Gender Discrimination in Lobbyist Hiring Decisions. *Legislative Studies Quarterly*, 50(3): e12490](files/Lobbyist_Discrimination.pdf)
 
